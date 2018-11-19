@@ -52,7 +52,7 @@ rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/ho
 
 ## How to check machine configuration?
 
-#### Step 1: RAM Size
+#### Step 1: RAM Status
 ```console
 rafsanjani@mrz:~$ free -h
 ```
@@ -60,4 +60,9 @@ rafsanjani@mrz:~$ free -h
 #### Step 2: Processor Model
 ```console
 rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
+```
+
+#### Step 3: Information about OS
+```console
+rafsanjani@mrz:~$ uname -a
 ```
