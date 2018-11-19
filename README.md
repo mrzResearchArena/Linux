@@ -6,47 +6,45 @@
 ```console
 rafsanjani@mrz:~$ screen -list
 ```
-&nbsp;
-![None](1.png)
-
-&nbsp;
-![Running](2.png)
-
-
 
 #### Step #2: Generate a socket
 ```console
-rafsanjani@mrz:~$ screen -S socketName
+rafsanjani@mrz:~$ screen -S anySocketName
 ```
 
-
-#### Step #3: Detach screen (without killing the socket)
+#### Step #3: Detach screen without killing the socket
 ```console
 rafsanjani@mrz:~$ control + A + D 
 ```
 
 #### Step 4: Resume the socket after detach
 ```console
-rafsanjani@mrz:~$ screen -r socketName
+rafsanjani@mrz:~$ screen -r anySocketName
 ```
 
-#### Step 5: Remove a socket
+#### Step 5: Kill a socket
 ```console
-rafsanjani@mrz:~$ screen -X -S socketName quit
+rafsanjani@mrz:~$ screen -S anySocketName  `-X quit`
 ```
 
 **Note:** The step doesn't mean you have to follow one by one.
 
 
-### Cory a file/directory from local machine to remote machine
+### How to copy a file/directory from local machine to remote machine?
 
 ```console
-rafsanjani@mrz:~$ scp <source> <destination>
+rafsanjani@mrz:~$ scp `<source>` `<destination>`
 ```
+**Note:** `15.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
-#### Example 1:
+
+#### Example 1: Copy a file 
 ```console
-rafsanjani@mrz:~$ scp /home/rafsanjani/fileName.csv learning@150.78.20.89:/home/learning/mrzResearchArena
+rafsanjani@mrz:~$ scp `/home/rafsanjani/anyFile.csv` `learning@150.78.20.89:/home/learning/mrzResearchArena`
 ```
 
+#### Example 2: Copy a directory
+```console
+rafsanjani@mrz:~$ scp `-r` `/home/rafsanjani/anyDirectory` `learning@150.78.20.89:/home/learning/mrzResearchArena`
+```
 
