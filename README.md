@@ -1,6 +1,6 @@
 ## Access Remote Server
 
-## How does screen work?
+## 1. How does screen work?
 
 #### Step #1: Current status of the running socket(s)
 ```console
@@ -29,7 +29,7 @@ rafsanjani@mrz:~$ screen -S anySocketName  `-X quit`
 
 &nbsp;
 
-## How to copy a file/directory from local machine to remote machine?
+## 2. How to copy a file/directory from local machine to remote machine?
 
 ```console
 rafsanjani@mrz:~$ scp  <source>  <destination>
@@ -47,7 +47,7 @@ rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/ho
 ```
 &nbsp;
 
-## How to check machine configuration?
+## 3. How to check machine configuration?
 
 #### Step 1: RAM Status
 ```console
