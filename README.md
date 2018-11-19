@@ -27,8 +27,6 @@ rafsanjani@mrz:~$ screen -r anySocketName
 rafsanjani@mrz:~$ screen -S anySocketName  `-X quit`
 ```
 
-**Note:** The step doesn't mean you have to follow one by one.
-
 &nbsp;
 
 ## How to copy a file/directory from local machine to remote machine?
@@ -36,15 +34,14 @@ rafsanjani@mrz:~$ screen -S anySocketName  `-X quit`
 ```console
 rafsanjani@mrz:~$ scp  <source>  <destination>
 ```
-**Note:** `15.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
+***Note:*** `15.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
-
-#### Example 1: Copy a file 
+#### Step 1: Copy a file 
 ```console
 rafsanjani@mrz:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/learning/mrzResearchArena
 ```
 
-#### Example 2: Copy a directory
+#### Step 2: Copy a directory
 ```console
 rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
 ```
@@ -66,3 +63,5 @@ rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 ```console
 rafsanjani@mrz:~$ uname -a
 ```
+
+**Note:** The step doesn't mean you have to follow one by one.
