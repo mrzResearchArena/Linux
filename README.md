@@ -59,5 +59,5 @@ rafsanjani@mrz:~$ free -h
 
 #### Step 2: Processor Model
 ```console
-rafsanjani@mrz: cat /proc/cpuinfo | grep 'model name'
+rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 ```
