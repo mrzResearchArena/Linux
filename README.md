@@ -2,17 +2,17 @@
 
 ## 1. How does screen work?
 
-#### Step #1: Current status of the running socket(s)
+#### Step 1: Current status of the running socket(s)
 ```console
 rafsanjani@mrz:~$ screen -list
 ```
 
-#### Step #2: Generate a socket
+#### Step 2: Generate a socket
 ```console
 rafsanjani@mrz:~$ screen -S anySocketName
 ```
 
-#### Step #3: Detach screen without killing the socket
+#### Step 3: Detach screen without killing the socket
 ```console
 rafsanjani@mrz:~$ control + A + D 
 ```
