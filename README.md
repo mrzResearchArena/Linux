@@ -24,7 +24,7 @@ rafsanjani@mrz:~$ screen -r anySocketName
 
 #### Step 5: Kill a socket
 ```console
-rafsanjani@mrz:~$ screen -S anySocketName  `-X quit`
+rafsanjani@mrz:~$ screen -S anySocketName -X quit
 ```
 
 &nbsp;
