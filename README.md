@@ -103,5 +103,7 @@ rafsanjani@mrz:~$ source activate anyName
 rafsanjani@mrz:~$ source deactivate
 ```
 
+&nbsp;
+&nbsp;
 
 **Note:** The step doesn't mean you have to follow one by one.
