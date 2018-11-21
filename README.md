@@ -82,5 +82,22 @@ rafsanjani@mrz:~$ python
 Output: True (available) / False (NOT available)
 ```
 
-**Note:** The step doesn't mean you have to follow one by one.
+## 4. How to create an anaconda virtual environment?
 
+#### Step 1: Create a virtual environment ####
+```console
+rafsanjani@mrz:~$ conda create -n anyName python=3.x anaconda
+```
+
+#### Step 2: Entering the virtual environment ####
+```console
+rafsanjani@mrz:~$ source activate anyName
+```
+
+#### Step 3: Detach from the virtual environment ####
+```console
+rafsanjani@mrz:~$ source deactivate
+```
+
+
+**Note:** The step doesn't mean you have to follow one by one.
