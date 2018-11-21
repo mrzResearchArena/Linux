@@ -64,6 +64,8 @@ rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 rafsanjani@mrz:~$ uname -a
 ```
 
+&nbsp;
+
 ## 4. How to check GPU configuration?
 
 #### Step 1: Ensure GPU Existence
@@ -82,7 +84,9 @@ rafsanjani@mrz:~$ python
 Output: True (available) / False (NOT available)
 ```
 
-## 4. How to create an anaconda virtual environment?
+&nbsp;
+
+## 5. How to create an anaconda virtual environment?
 
 #### Step 1: Create a virtual environment ####
 ```console
