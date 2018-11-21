@@ -34,7 +34,7 @@ rafsanjani@mrz:~$ screen -S anySocketName -X quit
 ```console
 rafsanjani@mrz:~$ scp  <source>  <destination>
 ```
-***Note:*** `15.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
+***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
 #### Step 1: Copy a file 
 ```console
