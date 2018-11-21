@@ -79,8 +79,8 @@ rafsanjani@mrz:~$ nvcc --version
 rafsanjani@mrz:~$ python
 >>> import torch
 >>> torch.cuda.is_available()
+Output: True (available) / False (NOT available)
 ```
-
 
 **Note:** The step doesn't mean you have to follow one by one.
 
