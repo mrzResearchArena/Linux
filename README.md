@@ -64,4 +64,23 @@ rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 rafsanjani@mrz:~$ uname -a
 ```
 
+## 4. How to check GPU configuration?
+
+#### Step 1: Ensure GPU Existence
+```console
+rafsanjani@mrz:~$ nvidia-smi
+```
+#### Step 2: Ensure CUDA Existence
+```console
+rafsanjani@mrz:~$ nvcc --version
+```
+#### Step 3: Ensure by run a simple programme (PyTorch)
+```console
+rafsanjani@mrz:~$ python
+>>> import torch
+>>> torch.cuda.is_available()
+```
+
+
 **Note:** The step doesn't mean you have to follow one by one.
+
