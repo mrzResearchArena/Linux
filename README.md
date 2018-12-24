@@ -102,8 +102,9 @@ rafsanjani@mrz:~$ source activate anyName
 ```console
 rafsanjani@mrz:~$ source deactivate
 ```
+## 6. Tricks for anaconda virtual environment?
 
-#### Step 4: Uninstall all unused packages from virtual environment ####
+#### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
 rafsanjani@mrz:~$ conda clean --yes --all
 ```
