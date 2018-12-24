@@ -102,16 +102,24 @@ rafsanjani@mrz:~$ source activate anyName
 ```console
 rafsanjani@mrz:~$ source deactivate
 ```
+
 ## 6. Tricks for anaconda virtual environment?
+
+#### Step 1: Remove an user from virtual environment ####
+```console
+rafsanjani@mrz:~$ conda env remove --name anyName
+```
+
+## 7. Space Optimization?
 
 #### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
 rafsanjani@mrz:~$ conda clean --yes --all
 ```
 
-#### Step 2: Remove an user from virtual environment ####
+#### Step 2: Remove from Trash ####
 ```console
-rafsanjani@mrz:~$ conda env remove --name anyName
+rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/* 
 ```
 
 &nbsp;
