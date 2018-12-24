@@ -127,10 +127,9 @@ rafsanjani@mrz:~$ conda clean --yes --all
 rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/* 
 ```
 
-#### Step 3: OS Auto Clean ####
+#### Step 3: OS Auto Remove/Clean ####
 ```console
 rafsanjani@mrz:~$ sudo apt autoremove
-
 rafsanjani@mrz:~$ sudo apt autoclean
 ```
 
