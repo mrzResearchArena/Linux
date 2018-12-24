@@ -1,5 +1,7 @@
 # Linux Server Handling
 
+&nbsp;
+
 ## 1. How does screen work?
 
 #### Step 1: Current status of the running socket(s)
