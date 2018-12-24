@@ -103,6 +103,11 @@ rafsanjani@mrz:~$ source activate anyName
 rafsanjani@mrz:~$ source deactivate
 ```
 
+#### Step 4: Uninstall all unused packages from virtual environment ####
+```console
+rafsanjani@mrz:~$ conda clean --yes --all
+```
+
 &nbsp;
 &nbsp;
 
