@@ -1,4 +1,4 @@
-## Access Remote Server
+# Server Handle
 
 ## 1. How does screen work?
 
