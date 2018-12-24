@@ -109,7 +109,7 @@ rafsanjani@mrz:~$ source deactivate
 rafsanjani@mrz:~$ conda clean --yes --all
 ```
 
-#### Step 2: Remove a user from virtual environment ####
+#### Step 2: Remove an user from virtual environment ####
 ```console
 rafsanjani@mrz:~$ conda env remove --name anyName
 ```
