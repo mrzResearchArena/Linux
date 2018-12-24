@@ -105,12 +105,15 @@ rafsanjani@mrz:~$ source activate anyName
 rafsanjani@mrz:~$ source deactivate
 ```
 
+&nbsp;
+
 ## 6. Tricks for anaconda virtual environment?
 
 #### Step 1: Remove an user from virtual environment ####
 ```console
 rafsanjani@mrz:~$ conda env remove --name anyName
 ```
+&nbsp;
 
 ## 7. Space Optimization!
 
