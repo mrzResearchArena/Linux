@@ -110,7 +110,7 @@ rafsanjani@mrz:~$ source deactivate
 rafsanjani@mrz:~$ conda env remove --name anyName
 ```
 
-## 7. Space Optimization?
+## 7. Space Optimization!
 
 #### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
