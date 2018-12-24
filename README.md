@@ -122,10 +122,18 @@ rafsanjani@mrz:~$ conda env remove --name anyName
 rafsanjani@mrz:~$ conda clean --yes --all
 ```
 
-#### Step 2: Remove from Trash ####
+#### Step 2: Clean Trash ####
 ```console
 rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/* 
 ```
+
+#### Step 3: OS Auto Clean ####
+```console
+rafsanjani@mrz:~$ sudo apt autoremove
+
+rafsanjani@mrz:~$ sudo apt autoclean
+```
+
 
 &nbsp;
 &nbsp;
