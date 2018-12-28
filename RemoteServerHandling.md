@@ -58,12 +58,12 @@ rafsanjani@mrz:~$ free -h
 
 #### Step 2: HDD (Hard Disk Drive) Status
 
-##### Step 2.1: Working Drive
+##### Step 2.1: Working Drive (Dual Boot Mode OS)
 ```console
 rafsanjani@mrz:~$ df -h
 ```
 
-##### Step 2.2: Whole HDD Information
+##### Step 2.2: Whole HDD Information (Identifying the Partition Type)
 ```console
 rafsanjani@mrz:~$ sudo fdisk -l
 ```
