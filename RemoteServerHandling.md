@@ -56,12 +56,24 @@ rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/ho
 rafsanjani@mrz:~$ free -h
 ```
 
-#### Step 2: Processor Model
+#### Step 2: HDD (Hard Disk Drive) Status
+
+##### Step 2.1: Working Drive
+```console
+rafsanjani@mrz:~$ df -h
+```
+
+##### Step 2.2: Whole HDD Information
+```console
+rafsanjani@mrz:~$ sudo fdisk -l
+```
+
+#### Step 3: Processor Model
 ```console
 rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 ```
 
-#### Step 3: Information about OS
+#### Step 4: Information about OS
 ```console
 rafsanjani@mrz:~$ uname -a
 ```
