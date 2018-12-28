@@ -63,7 +63,7 @@ rafsanjani@mrz:~$ free -h
 rafsanjani@mrz:~$ df -h
 ```
 
-##### Step 2.2: Whole HDD Information (Identifying the Partition Type)
+##### Step 2.2: Whohe HDD Information (Identifying the Partition Type)
 ```console
 rafsanjani@mrz:~$ sudo fdisk -l
 ```
