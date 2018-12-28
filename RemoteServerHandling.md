@@ -31,56 +31,39 @@ rafsanjani@mrz:~$ screen -S anySocketName -X quit
 
 &nbsp;
 
-## 2. How to copy a file/directory from local machine to remote machine?
 
-```console
-rafsanjani@mrz:~$ scp  <source>  <destination>
-```
-***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
+## 2. How to check machine configuration?
 
-#### Step 1: Copy a file 
-```console
-rafsanjani@mrz:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/learning/mrzResearchArena
-```
-
-#### Step 2: Copy a directory
-```console
-rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
-```
-&nbsp;
-
-## 3. How to check machine configuration?
-
-#### Step 1: RAM Status
-```console
-rafsanjani@mrz:~$ free -h
-```
-
-#### Step 2: HDD (Hard Disk Drive) Status
-
-##### Step 2.1: Working Drive (Dual Boot Mode OS)
-```console
-rafsanjani@mrz:~$ df -h
-```
-
-##### Step 2.2: Whohe HDD Information (Identifying the Partition Type)
-```console
-rafsanjani@mrz:~$ sudo fdisk -l
-```
-
-#### Step 3: Processor Model
-```console
-rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
-```
-
-#### Step 4: Information about OS
+#### Step 1: Information about OS
 ```console
 rafsanjani@mrz:~$ uname -a
 ```
 
+#### Step 2: Processor Model
+```console
+rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
+```
+
+#### Step 3: RAM Status
+```console
+rafsanjani@mrz:~$ free -h
+```
+
+#### Step 4: HDD (Hard Disk Drive) Status
+
+##### Step 4.1: Working Drive (Dual Boot Mode OS)
+```console
+rafsanjani@mrz:~$ df -h
+```
+
+##### Step 4.2: Whohe HDD Information (Identifying the Partition Type)
+```console
+rafsanjani@mrz:~$ sudo fdisk -l
+```
+
 &nbsp;
 
-## 4. How to check GPU configuration?
+## 3. How to check GPU configuration?
 
 #### Step 1: Ensure GPU Existence
 ```console
@@ -99,6 +82,27 @@ Output: True (available) / False (NOT available)
 ```
 
 &nbsp;
+
+
+
+## 4. How to copy a file/directory from local machine to remote machine?
+
+```console
+rafsanjani@mrz:~$ scp  <source>  <destination>
+```
+***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
+
+#### Step 1: Copy a file 
+```console
+rafsanjani@mrz:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/learning/mrzResearchArena
+```
+
+#### Step 2: Copy a directory
+```console
+rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
+```
+&nbsp;
+
 
 ## 5. How to create an anaconda virtual environment?
 
@@ -119,6 +123,7 @@ rafsanjani@mrz:~$ source deactivate
 
 &nbsp;
 
+
 ## 6. Tricks for anaconda virtual environment?
 
 #### Step 1: Remove an user from virtual environment ####
@@ -126,6 +131,7 @@ rafsanjani@mrz:~$ source deactivate
 rafsanjani@mrz:~$ conda env remove --name anyName
 ```
 &nbsp;
+
 
 ## 7. Space Optimization!
 
@@ -144,7 +150,6 @@ rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/*
 rafsanjani@mrz:~$ sudo apt autoremove
 rafsanjani@mrz:~$ sudo apt autoclean
 ```
-
 
 &nbsp;
 &nbsp;
