@@ -103,8 +103,7 @@ rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/ho
 ```
 &nbsp;
 
-
-## 5. How to create an anaconda virtual environment?
+## 5. How to handle an anaconda virtual environment?
 
 #### Step 1: Create a virtual environment ####
 ```console
@@ -121,19 +120,13 @@ rafsanjani@mrz:~$ source activate anyName
 rafsanjani@mrz:~$ source deactivate
 ```
 
-&nbsp;
-
-
-## 6. Tricks for anaconda virtual environment?
-
-#### Step 1: Remove an user from virtual environment ####
+#### Step 4: Remove an user from virtual environment ####
 ```console
 rafsanjani@mrz:~$ conda env remove --name anyName
 ```
 &nbsp;
 
-
-## 7. Space Optimization!
+## 6. Space Optimization!
 
 #### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
@@ -150,7 +143,6 @@ rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/*
 rafsanjani@mrz:~$ sudo apt autoremove
 rafsanjani@mrz:~$ sudo apt autoclean
 ```
-
 &nbsp;
 &nbsp;
 
