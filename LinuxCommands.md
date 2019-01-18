@@ -2,7 +2,7 @@
 
 &nbsp;
 
-### 1. How to reduce terminal text / Customizing BASH Prompt?
+#### 1. How to reduce terminal text / Customizing BASH Prompt?
 
 ```console
 rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
