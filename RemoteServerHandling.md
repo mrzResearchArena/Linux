@@ -1,5 +1,7 @@
 # Linux Server Handling
 
+&nbsp;
+
 ## 1. How to check machine configuration?
 
 #### Step 1: Information about OS
