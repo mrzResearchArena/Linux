@@ -5,10 +5,10 @@
 
 #### 1. System Update and Upgrade
 ```console
-rafsanjani@mrz:~$ sudo apt update
+rafsanjani@mrz:~$ sudo apt update 
 ```
 ```console
-rafsanjani@mrz:~$ sudo apt upgrade
+rafsanjani@mrz:~$ sudo apt upgrade 
 ```
 
 &nbsp;
