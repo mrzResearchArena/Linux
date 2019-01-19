@@ -1,43 +1,8 @@
 # Linux Server Handling
 
-
 &nbsp;
 
-## 1. Ubuntu Installation for Deep Learning 
-#### Step 1: Setup [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
-
-&nbsp;
-
-## 2. How does screen work?
-
-#### Step 1: Current status of the running socket(s)
-```console
-rafsanjani@mrz:~$ screen -list
-```
-
-#### Step 2: Generate a socket
-```console
-rafsanjani@mrz:~$ screen -S anySocketName
-```
-
-#### Step 3: Detach screen without killing the socket
-```console
-rafsanjani@mrz:~$ control + A + D 
-```
-
-#### Step 4: Resume the socket after detach
-```console
-rafsanjani@mrz:~$ screen -r anySocketName
-```
-
-#### Step 5: Kill a socket
-```console
-rafsanjani@mrz:~$ screen -S anySocketName -X quit
-```
-
-&nbsp;
-
-## 3. How to check machine configuration?
+## 1. How to check machine configuration?
 
 #### Step 1: Information about OS
 ```console
@@ -68,7 +33,12 @@ rafsanjani@mrz:~$ sudo fdisk -l
 
 &nbsp;
 
-## 4. How to check GPU configuration?
+## 2. Ubuntu Installation for Deep Learning 
+#### Step 1: Setup [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
+
+&nbsp;
+
+## 3. How to check GPU configuration?
 
 #### Step 1: Ensure GPU Existence
 ```console
@@ -88,7 +58,34 @@ Output: True (available), or False (NOT available)!
 
 &nbsp;
 
+## 4. How does screen work?
 
+#### Step 1: Current status of the running socket(s)
+```console
+rafsanjani@mrz:~$ screen -list
+```
+
+#### Step 2: Generate a socket
+```console
+rafsanjani@mrz:~$ screen -S anySocketName
+```
+
+#### Step 3: Detach screen without killing the socket
+```console
+rafsanjani@mrz:~$ control + A + D 
+```
+
+#### Step 4: Resume the socket after detach
+```console
+rafsanjani@mrz:~$ screen -r anySocketName
+```
+
+#### Step 5: Kill a socket
+```console
+rafsanjani@mrz:~$ screen -S anySocketName -X quit
+```
+
+&nbsp;
 
 ## 5. How to copy a file/directory from local machine to remote machine?
 
