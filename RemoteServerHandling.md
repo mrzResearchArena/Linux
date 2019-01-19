@@ -145,7 +145,7 @@ rafsanjani@mrz:~$ sudo apt autoclean
 ```
 
 ## 7. Ubuntu Installation for Deep Learning 
-1. Setup: [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software)
+#### Step 1: Setup [[by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software)]
 
 &nbsp;
 &nbsp;
