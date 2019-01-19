@@ -31,8 +31,12 @@ rafsanjani@mrz:~$ screen -S anySocketName -X quit
 
 &nbsp;
 
+## 2. Ubuntu Installation for Deep Learning 
+#### Step 1: Setup [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
 
-## 2. How to check machine configuration?
+&nbsp;
+
+## 3. How to check machine configuration?
 
 #### Step 1: Information about OS
 ```console
@@ -63,7 +67,7 @@ rafsanjani@mrz:~$ sudo fdisk -l
 
 &nbsp;
 
-## 3. How to check GPU configuration?
+## 4. How to check GPU configuration?
 
 #### Step 1: Ensure GPU Existence
 ```console
@@ -85,7 +89,7 @@ Output: True (available), or False (NOT available)!
 
 
 
-## 4. How to copy a file/directory from local machine to remote machine?
+## 5. How to copy a file/directory from local machine to remote machine?
 
 ```console
 rafsanjani@mrz:~$ scp  <source>  <destination>
@@ -103,7 +107,7 @@ rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/ho
 ```
 &nbsp;
 
-## 5. How to handle an anaconda virtual environment?
+## 6. How to handle an anaconda virtual environment?
 
 #### Step 1: Create a virtual environment ####
 ```console
@@ -126,7 +130,7 @@ rafsanjani@mrz:~$ conda env remove --name anyName
 ```
 &nbsp;
 
-## 6. Space Optimization!
+## 7. Space Optimization!
 
 #### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
@@ -143,9 +147,6 @@ rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/*
 rafsanjani@mrz:~$ sudo apt autoremove
 rafsanjani@mrz:~$ sudo apt autoclean
 ```
-
-## 7. Ubuntu Installation for Deep Learning 
-#### Step 1: Setup [[by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software)]
 
 &nbsp;
 &nbsp;
