@@ -1,5 +1,7 @@
 # Linux Handling
 
+&nbsp;
+
 ## 1. How to reduce terminal text / Customizing BASH Prompt
 
 #### Step 1:
