@@ -5,6 +5,9 @@
 ```console
 rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
 ```
+```console
+rafsanjani@mrz:~$ PS1='[\W]\$ '
+```
 &nbsp;
 &nbsp;
 
