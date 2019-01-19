@@ -4,13 +4,13 @@
 
 ## 1. How to reduce terminal text / Customizing BASH Prompt
 
-#### Step 1:
+#### Step 1: Small
 ```console
 rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
 ```
-#### Step 2:
+#### Step 2: Extra Small
 ```console
-rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
+rafsanjani@mrz:~$ PS1='[@ \W]\$ '
 ```
 &nbsp;
 &nbsp;
