@@ -1,8 +1,6 @@
 
 # Linux Handling
 
-&nbsp;
-
 #### 1. System Update and Upgrade
 ```console
 rafsanjani@mrz:~$ sudo apt update 
