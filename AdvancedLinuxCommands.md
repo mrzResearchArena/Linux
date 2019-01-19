@@ -8,7 +8,7 @@ rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
 ```
 #### Step 2:
 ```console
-rafsanjani@mrz:~$ PS1='[\W]\$ '
+rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
 ```
 &nbsp;
 &nbsp;
