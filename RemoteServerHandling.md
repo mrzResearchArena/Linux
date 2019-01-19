@@ -1,8 +1,14 @@
 # Linux Server Handling
 
+
 &nbsp;
 
-## 1. How does screen work?
+## 1. Ubuntu Installation for Deep Learning 
+#### Step 1: Setup [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
+
+&nbsp;
+
+## 2. How does screen work?
 
 #### Step 1: Current status of the running socket(s)
 ```console
@@ -28,11 +34,6 @@ rafsanjani@mrz:~$ screen -r anySocketName
 ```console
 rafsanjani@mrz:~$ screen -S anySocketName -X quit
 ```
-
-&nbsp;
-
-## 2. Ubuntu Installation for Deep Learning 
-#### Step 1: Setup [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
 
 &nbsp;
 
