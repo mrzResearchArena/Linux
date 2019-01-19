@@ -10,7 +10,7 @@ rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
 ```
 #### Step 2: Extra Small
 ```console
-rafsanjani@mrz:~$ PS1='[@ \W]\$ '
+rafsanjani@mrz:~$ PS1='[\W]\$ '
 ```
 &nbsp;
 &nbsp;
