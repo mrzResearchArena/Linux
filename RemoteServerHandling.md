@@ -143,6 +143,10 @@ rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/*
 rafsanjani@mrz:~$ sudo apt autoremove
 rafsanjani@mrz:~$ sudo apt autoclean
 ```
+
+## 7. Ubuntu Installation for Deep Learning 
+[by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software)
+
 &nbsp;
 &nbsp;
 
