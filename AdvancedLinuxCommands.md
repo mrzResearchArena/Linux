@@ -13,6 +13,16 @@ rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '
 rafsanjani@mrz:~$ PS1='[@ \W]\$ '
 ```
 &nbsp;
+
+## X. Regular Expression
+
+#### Step 1: Search a keyword from a file
+```console
+rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
+```
+
 &nbsp;
+&nbsp;
+
 
 **Note:** The step doesn't mean you have to follow one by one.
