@@ -24,5 +24,4 @@ rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 &nbsp;
 &nbsp;
 
-
 **Note:** The step doesn't mean you have to follow one by one.
