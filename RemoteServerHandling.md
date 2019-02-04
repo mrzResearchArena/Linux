@@ -11,8 +11,8 @@ rafsanjani@mrz:~$ uname -a
 
 #### Step 2: Processor Model
 ```console
-rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 rafsanjani@mrz:~$ lscpu | grep 'Model name'
+rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 ```
 
 
