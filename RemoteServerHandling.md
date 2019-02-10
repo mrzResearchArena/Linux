@@ -149,7 +149,9 @@ rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.
 &nbsp;
 
 #### Step 3: Go to the local machine's web browser and type the below URL! ####
+```console
 localhost:8888/tree
+```
 
 &nbsp;
 
