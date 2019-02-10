@@ -153,6 +153,9 @@ localhost:8888/tree
 
 &nbsp;
 
+#### A simple three-step process for running a remote Jupyter notebook.
+![Jupyter Remotely](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png)
+
 ##### Learning Resource-1 [ [by clicking here!](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/) ]
 ##### Learning Resource-2 [ [by clicking here!](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook/) ]
 
