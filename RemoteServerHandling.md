@@ -153,8 +153,6 @@ rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.
 localhost:8888/tree
 ```
 
-&nbsp;
-
 #### Step 4: Graphical Interface ####
 
 &nbsp;
