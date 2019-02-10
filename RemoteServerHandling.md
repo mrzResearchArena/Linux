@@ -138,20 +138,23 @@ learning@150.78.20.89:~$ jupyter-notebook --no-browser --port=8889
 ```
 ***Note:*** By running, you will recieve a token from remote machine (or, server). Exmaple: http://localhost:8889/?token=05f9832e3a503c9cab5f89b28e8c6e25b74ce61e2fc8ddzz
 
+&nbsp;
+
 #### Step 2: Run on a local machine ####
 ```console
 rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.89
 ```
 ***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
+&nbsp;
+
 #### Step 3: Go to the local machine's web browser and type the below URL! ####
 localhost:8888/tree
 
 &nbsp;
+
 ##### Learning Resource-1 [ [by clicking here!](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/) ]
 ##### Learning Resource-2 [ [by clicking here!](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook/) ]
-
-
 
 &nbsp;
 
