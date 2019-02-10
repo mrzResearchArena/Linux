@@ -144,10 +144,11 @@ rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.
 ```
 ***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
-#### Step 3: Go to browser ####
+#### Step 3: Go to the local browser ####
 localhost:8888/tree
 
-##### Learning Resource [ [by clicking here!](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/) ]
+###### Learning Resource-1 [ [by clicking here!](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/) ]
+###### Learning Resource-2 [ [by clicking here!](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook) ]
 
 
 
