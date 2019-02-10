@@ -151,9 +151,9 @@ rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.
 #### Step 3: Go to the local machine's web browser and type the below URL! ####
 localhost:8888/tree
 
-&nbsp;
-
 #### Step 4: Graphical Interface ####
+
+&nbsp;
 
 ![Jupyter Remotely](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png)
 
