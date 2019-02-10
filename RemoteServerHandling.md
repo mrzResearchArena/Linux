@@ -153,6 +153,8 @@ localhost:8888/tree
 
 &nbsp;
 
+#### Step 4: Graphical Interface ####
+
 ![Jupyter Remotely](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png)
 
 ***Figure:*** A simple three-step process for running a remote Jupyter notebook.
