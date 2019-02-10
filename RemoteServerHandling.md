@@ -130,7 +130,30 @@ rafsanjani@mrz:~$ conda env remove --name anyName
 ```
 &nbsp;
 
-## 7. Space Optimization!
+## 7. How to access jupyter notebook remotely?
+
+#### Step 1: Run on a remote machine ####
+```console
+learning@150.78.20.89:~$ jupyter-notebook --no-browser --port=8889 
+```
+***Note:*** By running, you will recieve a token from remote machine (or, server). Exmaple: http://localhost:8889/?token=05f9832e3a503c9cab5f89b28e8c6e25b74ce61e2fc8ddzz
+
+#### Step 2: Run on a local machine ####
+```console
+rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.89
+```
+***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
+
+#### Step 3: Go to browser ####
+localhost:8888/tree
+
+##### Learning Resource [ [by clicking here!](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/) ]
+
+
+
+&nbsp;
+
+## 8. Space Optimization!
 
 #### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
