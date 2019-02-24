@@ -136,7 +136,9 @@ rafsanjani@mrz:~$ conda env remove --name anyName
 ```console
 learning@150.78.20.89:~$ jupyter-notebook --no-browser --port=8889 
 ```
-***Note:*** By running, you will recieve a token from remote machine (or, server). Exmaple: http://localhost:8889/?token=05f9832e3a503c9cab5f89b28e8c6e25b74ce61e2fc8ddzz
+***Note:*** By running, you will recieve a token from remote machine (or, server). 
+
+Exmaple: http://localhost:8889/?token=05f9832e3a503c9cab5f89b28e8c6e25b74ce61e2fc8ddzz
 
 &nbsp;
 
