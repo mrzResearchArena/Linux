@@ -33,6 +33,12 @@ rafsanjani@mrz:~$ ls | egrep '.fasta$'
 rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
 ```
 
+## Shell Programming
+```sh
+v=`ls | egrep '*.fa$|*.fasta$'`
+echo $v
+```
+
 
 &nbsp;
 &nbsp;
