@@ -3,7 +3,7 @@
 
 &nbsp;
 
-## 1. System Update and Upgrade
+## System Update and Upgrade
 #### Step 1: Update
 ```console
 rafsanjani@mrz:~$ sudo apt update 
@@ -21,7 +21,7 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade
 
 &nbsp;
 
-## 1. Kill Process (Programme)
+## Kill Process (Programme)
 #### Step 1: Show the Running Process
 ```console
 rafsanjani@mrz:~$ top
