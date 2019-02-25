@@ -52,6 +52,15 @@ for i in $v ; do
 done
 ```
 
+#### Step 3: Array 
+```sh
+v=(`ls | egrep '*.fa$|*.fasta$'`)           # Convert into array
+
+for (( i = 0; i < ${#v[*]}; i++ )); do      # length of array is ${#v[*]} or ${#v[@]} 
+    echo ${v[$i]}                           # Access each element of the array
+done
+```
+
 
 &nbsp;
 &nbsp;
