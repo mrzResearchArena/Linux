@@ -29,7 +29,7 @@ rafsanjani@mrz:~$ top
 ```
 #### Step 2: Kill a Process
 ```console
-rafsanjani@mrz:~$ kill <PID> (kill 3288; then the firefox programme will stop.)
+rafsanjani@mrz:~$ kill <PID> (kill 3288; the firefox programme will stop.)
 ```
 #### Step 3: Kill All the Process
 ```console
