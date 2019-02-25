@@ -13,6 +13,7 @@ rafsanjani@mrz:~$ PS1='[@ \W]\$ '           (Extra Small)
 
 #### Step 1: Search a keyword from a file
 ```console
+rafsanjani@mrz:~$ grep 'keyword' fileName.txt
 rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 ```
 
