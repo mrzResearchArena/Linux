@@ -21,17 +21,17 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade
 
 &nbsp;
 
-## 1. Kill Process/Programme
-#### Step 1: Show the running process/programme
+## 1. Kill Process (Programme)
+#### Step 1: Show the Running Process
 ```console
 rafsanjani@mrz:~$ top
 [Example: PID (3288), USER (mrz), COMMAND (firefox)]
 ```
-#### Step 2: Kill a process/programme
+#### Step 2: Kill a Process
 ```console
-rafsanjani@mrz:~$ kill <PID> (kill 3288; the the firefox programme will stop.)
+rafsanjani@mrz:~$ kill <PID> (kill 3288; then the firefox programme will stop.)
 ```
-#### Step 3: Kill all the process/programme
+#### Step 3: Kill All the Process
 ```console
 rafsanjani@mrz:~$ kill -9 -1
 ```
