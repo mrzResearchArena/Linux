@@ -46,6 +46,15 @@ v=$(ls | egrep '*.fa$|*.fasta$')
 echo $v
 ```
 
+#### Loop 2.1:
+```sh
+v=`ls | egrep '*.fa$|*.fasta$'`
+
+for i in $v ; do
+    echo $i
+done
+```
+
 
 &nbsp;
 &nbsp;
