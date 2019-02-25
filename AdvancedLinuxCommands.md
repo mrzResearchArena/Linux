@@ -33,6 +33,8 @@ rafsanjani@mrz:~$ ls | egrep '.fasta$'
 rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
 ```
 
+&nbsp;
+
 ## Shell Programming
 
 #### Step 1: Assigning Variable
@@ -42,7 +44,7 @@ v=$(ls | egrep '*.fa$|*.fasta$')         # using $( )
 echo $v
 ```
 
-#### Loop 2.1:
+#### Step 2: Loop
 ```sh
 v=`ls | egrep '*.fa$|*.fasta$'`
 
