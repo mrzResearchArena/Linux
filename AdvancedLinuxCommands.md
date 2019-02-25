@@ -53,6 +53,8 @@ done
 ```
 
 #### Step 3: Array 
+
+##### Step 1: Array with for-index-loop
 ```sh
 v=(`ls | egrep '*.fa$|*.fasta$'`)           # Convert into array
 
@@ -61,6 +63,7 @@ for (( i = 0; i < ${#v[*]}; i++ )); do      # length of array is ${#v[*]} or ${#
 done
 ```
 
+##### Step 1: Array with for-each-loop
 ```sh
 v=(`ls | egrep '*.fa$|*.fasta$'`)
 
