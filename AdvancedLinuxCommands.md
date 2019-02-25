@@ -14,12 +14,18 @@ rafsanjani@mrz:~$ PS1='[@ \W]\$ '
 ```
 &nbsp;
 
-## X. Regular Expression
+## x. Regular Expression
 
 #### Step 1: Search a keyword from a file
 ```console
 rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 ```
+
+#### Step 2: Search the number of fasta sequence from a file (.fasta)
+```console
+rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l
+```
+
 
 &nbsp;
 &nbsp;
