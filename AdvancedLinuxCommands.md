@@ -35,14 +35,10 @@ rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
 
 ## Shell Programming
 
-#### Step 1.1: Assigning Variable using ``
+#### Step 1: Assigning Variable
 ```sh
-v=`ls | egrep '*.fa$|*.fasta$'`
-echo $v
-```
-#### Step 1.2: Assigning Variable using $
-```sh
-v=$(ls | egrep '*.fa$|*.fasta$')
+v=`ls | egrep '*.fa$|*.fasta$'`          # using ` `
+v=$(ls | egrep '*.fa$|*.fasta$')         # using $( )
 echo $v
 ```
 
