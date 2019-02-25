@@ -64,7 +64,7 @@ echo ${v[2]}                             # Third-index of array
 echo ${v[3]}                             # Fourth-index of array
 echo ${v[4]}                             # Fifth-index of array
 
-echo ${#v[*]}                            # length of array is ${#v[*]} or ${#v[@]} 
+echo ${#v[*]}                            # length of the array; alternatively ${#v[@]} 
 ```
 
 ##### Step 2: Array with for-index-loop
