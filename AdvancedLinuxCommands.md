@@ -22,6 +22,11 @@ rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l
 ```
 
+#### Step 3: Show all .fasta file in current dicrectory
+```console
+rafsanjani@mrz:~$ ls | grep '.fasta'
+```
+
 
 &nbsp;
 &nbsp;
