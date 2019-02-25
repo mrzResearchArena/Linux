@@ -2,15 +2,14 @@
 
 &nbsp;
 
-## How to reduce terminal text? / Customizing BASH Prompt Text
+## 1. How to reduce terminal text? / Customizing BASH Prompt Text
 ```console
 rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '       (Small)
 rafsanjani@mrz:~$ PS1='[@ \W]\$ '           (Extra Small)
 ```
 &nbsp;
 
-## Regular Expression
-
+## 2. Regular Expression
 #### Step 1: Search a keyword from a file
 ```console
 rafsanjani@mrz:~$ grep 'keyword' fileName.txt
@@ -35,7 +34,7 @@ rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
 
 &nbsp;
 
-## Shell Programming
+## 3. Shell Programming
 
 #### Step 1: Assigning Variable
 ```sh
