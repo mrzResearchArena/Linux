@@ -21,7 +21,7 @@ rafsanjani@mrz:~$ PS1='[@ \W]\$ '
 rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 ```
 
-#### Step 2: Search the number of fasta sequence from a file (.fasta)
+#### Step 2: Count the number of fasta sequence from a file (.fasta)
 ```console
 rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l
 ```
