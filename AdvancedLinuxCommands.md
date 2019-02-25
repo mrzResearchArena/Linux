@@ -61,6 +61,14 @@ for (( i = 0; i < ${#v[*]}; i++ )); do      # length of array is ${#v[*]} or ${#
 done
 ```
 
+```sh
+v=(`ls | egrep '*.fa$|*.fasta$'`)
+
+for i in ${v[*]} ; do
+    echo $i
+done
+```
+
 
 &nbsp;
 &nbsp;
