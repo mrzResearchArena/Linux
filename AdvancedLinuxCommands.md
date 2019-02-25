@@ -52,9 +52,22 @@ for i in $v ; do
 done
 ```
 
-#### Step 3: Array 
+#### Step 3: Array
 
-##### Step 1: Array with for-index-loop
+##### Step 1: Array indexing
+```sh
+v=(`ls | egrep '*.fa$|*.fasta$'`)        # Convert into array 
+
+echo ${v[0]}                             # First-index of array
+echo ${v[1]}                             # Second-index of array
+echo ${v[2]}                             # Third-index of array
+echo ${v[3]}                             # Fourth-index of array
+echo ${v[4]}                             # Fifth-index of array
+
+echo ${#v[*]}                            # length of array is ${#v[*]} or ${#v[@]} 
+```
+
+##### Step 2: Array with for-index-loop
 ```sh
 v=(`ls | egrep '*.fa$|*.fasta$'`)           # Convert into array
 
@@ -63,7 +76,7 @@ for (( i = 0; i < ${#v[*]}; i++ )); do      # length of array is ${#v[*]} or ${#
 done
 ```
 
-##### Step 1: Array with for-each-loop
+##### Step 3: Array with for-each-loop
 ```sh
 v=(`ls | egrep '*.fa$|*.fasta$'`)
 
