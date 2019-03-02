@@ -25,16 +25,16 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade
 #### Step 1: Show the Running Process
 ```console
 rafsanjani@mrz:~$ top
-[Example: PID (3288), USER (mrz), COMMAND (firefox)]
+[Example: PID (3288), USER (rafsanjani), COMMAND (firefox)]
 ```
 #### Step 2: Kill a Process
 ```console
-rafsanjani@mrz:~$ kill <PID>
+rafsanjani@mrz:~$ kill <PID> 
 [kill 3288; The firefox programme will stop.]
 ```
 #### Step 3: Kill All the Process
 ```console
-rafsanjani@mrz:~$ kill -9 -1
+rafsanjani@mrz:~$ kill -9 -1 
 ```
 
 &nbsp;
