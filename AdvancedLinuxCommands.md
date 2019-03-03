@@ -48,7 +48,7 @@ echo $v
 ```sh
 v=`ls | egrep '*.fa$|*.fasta$'`
 
-for i in $v ; do
+for i in $v; do
     echo $i
 done
 ```
