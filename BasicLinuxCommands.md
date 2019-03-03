@@ -36,7 +36,6 @@ rafsanjani@mrz:~$ kill <PID>
 ```console
 rafsanjani@mrz:~$ kill -9 -1 
 ```
-
 &nbsp;
 
 ## 3. Display Files
