@@ -46,11 +46,25 @@ echo $v
 ###### Note: There will be `no space` before and after `equal sign`.
 
 #### Step 2: Loop
+##### Step 1: Show file name one-by-one
 ```sh
 v=`ls | egrep '*.fa$|*.fasta$'`
 
 for i in $v; do
     echo $i
+done
+```
+
+##### Step 2: Check whether it is file or directory
+```sh
+v=`ls`
+
+for i in $v; do
+    if [ -d $i ]; then
+        echo $i '->' 'is a directory.'
+    else
+        echo $i '->' 'is a file.'
+    fi
 done
 ```
 
