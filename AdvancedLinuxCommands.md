@@ -40,6 +40,7 @@ rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
 ```sh
 v=`ls | egrep '*.fa$|*.fasta$'`          # using ` `
 v=$(ls | egrep '*.fa$|*.fasta$')         # using $( )
+
 echo $v
 ```
 ###### Note: There will be `no space` before and after `equal sign`.
