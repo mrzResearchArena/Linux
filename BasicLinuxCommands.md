@@ -38,6 +38,13 @@ rafsanjani@mrz:~$ kill -9 -1
 ```
 
 &nbsp;
+
+## 3. Display Files
+```console
+rafsanjani@mrz:~$ ls -ltrh
+```
+
+&nbsp;
 &nbsp;
 
 **Note:** The step doesn't mean you have to follow one by one.
