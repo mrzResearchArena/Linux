@@ -18,7 +18,7 @@ rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 
 #### Step 2: Count the number of fasta sequence from a file (.fasta)
 ```console
-rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l
+rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l 
 ```
 
 #### Step 3: Show all .fasta file in current dicrectory
@@ -42,8 +42,9 @@ rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt        (Change the text 
 rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     (Change the text segment with replacement)
 ```
 #### Step 2: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4))
-
-
+```sh
+rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'
+```
 &nbsp;
 
 ## 4. Shell Programming
