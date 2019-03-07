@@ -34,7 +34,17 @@ rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
 
 &nbsp;
 
-## 3. Shell Programming
+
+## 3. String Handling
+#### Step 1: Replace text segment
+```console
+rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt             (Change the text segment without replacement)
+rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt          (Change the text segment with replacement)
+```
+
+&nbsp;
+
+## 4. Shell Programming
 
 #### Step 1: Assigning Variable
 ```sh
