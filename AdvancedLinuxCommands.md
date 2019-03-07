@@ -43,7 +43,7 @@ rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     (Change the text 
 ```
 #### Step 2: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4))
 ```console
-rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                (Use as a pipeline)
+rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                (Must use as a pipeline)
 ```
 &nbsp;
 
