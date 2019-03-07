@@ -41,7 +41,7 @@ rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
 rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt        (Change the text segment without replacement)
 rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     (Change the text segment with replacement)
 ```
-#### Step 2: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4)
+#### Step 2: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4))
 
 
 &nbsp;
