@@ -45,6 +45,12 @@ rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     (Change the text 
 ```console
 rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                (Must use as a pipeline)
 ```
+
+#### Step 3: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4))
+```console
+rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}'
+```
+
 &nbsp;
 
 ## 4. Shell Programming
