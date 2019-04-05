@@ -1,6 +1,4 @@
-
 # Linux Handling
-
 &nbsp;
 
 ## 1. System Update and Upgrade
@@ -38,7 +36,6 @@ rafsanjani@mrz:~$ kill -9 -1
 ```
 
 &nbsp;
-
 ## 3. Display Files
 #### Step 1: Display all file names
 ```console
