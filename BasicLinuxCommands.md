@@ -22,7 +22,13 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade
 ## 2. Kill Process (Programme)
 #### Step 1: Show the Running Process
 ```console
-rafsanjani@mrz:~$ yes               # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
+rafsanjani@mrz:~$ ls 
+rafsanjani@mrz:~$ ls -1              # View in a single-line
+rafsanjani@mrz:~$ ls -a              # View everyting includes ( ., .., .git )
+rafsanjani@mrz:~$ ls -A              # View everyting except ( ., .. )
+rafsanjani@mrz:~$ ls -l              # View all visible with their details and long list formating ( l ) 
+rafsanjani@mrz:~$ ls -lh             # View all visible with their details and human readable file size ( h ) 
+rafsanjani@mrz:~$ top                # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
 ```
 
 #### Step 2: Kill a Process
