@@ -34,7 +34,7 @@ rafsanjani@mrz:~$ kill 3288
 
 #### Step 3: Kill All the Process
 ```console
-rafsanjani@mrz:~$ kill -9 -1 
+rafsanjani@mrz:~$ kill
 ```
 
 &nbsp;
