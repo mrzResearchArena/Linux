@@ -29,8 +29,8 @@ rafsanjani@mrz:~$ top
 ```
 #### Step 2: Kill a Process
 ```console
-rafsanjani@mrz:~$ kill <PID> 
-[kill 3288; The firefox programme will stop.]
+rafsanjani@mrz:~$ kill 3288 
+[Here, 3288 is the process identy (PID), Then the programme (3288) will halt.]
 ```
 #### Step 3: Kill All the Process
 ```console
