@@ -22,7 +22,7 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade
 ## 2. Kill Process (Programme)
 #### Step 1: Show the Running Process
 ```console
-rafsanjani@mrz:~$ top               # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
+rafsanjani@mrz:~$ yes               # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
 ```
 
 #### Step 2: Kill a Process
