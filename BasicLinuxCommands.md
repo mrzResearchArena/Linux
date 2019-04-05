@@ -22,7 +22,7 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade
 ## 2. Kill Process (Programme)
 #### Step 1: Show the Running Process
 ```console
-rafsanjani@mrz:~$ ls 
+rafsanjani@mrz:~$ top 
 rafsanjani@mrz:~$ ls -1              # View in a single-line
 rafsanjani@mrz:~$ ls -a              # View everyting includes ( ., .., .git )
 rafsanjani@mrz:~$ ls -A              # View everyting except ( ., .. )
