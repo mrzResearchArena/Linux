@@ -42,6 +42,9 @@ rafsanjani@mrz:~$ kill -9 -1
 #### Step 1: Display all file names
 ```console
 rafsanjani@mrz:~$ ls 
+rafsanjani@mrz:~$ ls -1     # View in a single-line
+rafsanjani@mrz:~$ ls -a     # View everyting includes ( ., .., .git )
+rafsanjani@mrz:~$ ls -A     # View everyting except ( ., .. )
 ```
 #### Step 2: Display all file names with details
 ```console
