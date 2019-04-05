@@ -47,9 +47,9 @@ rafsanjani@mrz:~$ ls
 ```console
 rafsanjani@mrz:~$ ls -ltrh 
 ```
-#### Step 3: Display last (5) modified files with details
+#### Step 3: Display last (5) modified files with their details
 ```console
-rafsanjani@mrz:~$ ls -tlh | head -5        # t (sort by last modification time), l (long list), and h (human readable)
+rafsanjani@mrz:~$ ls -tlh | head -6        # t (sort by last modification time), l (long list), and h (human readable)
 ```
 
 &nbsp;
