@@ -42,17 +42,15 @@ rafsanjani@mrz:~$ kill -9 -1
 #### Step 1: Display all file names
 ```console
 rafsanjani@mrz:~$ ls 
-rafsanjani@mrz:~$ ls -1     # View in a single-line
-rafsanjani@mrz:~$ ls -a     # View everyting includes ( ., .., .git )
-rafsanjani@mrz:~$ ls -A     # View everyting except ( ., .. )
+rafsanjani@mrz:~$ ls -1              # View in a single-line
+rafsanjani@mrz:~$ ls -a              # View everyting includes ( ., .., .git )
+rafsanjani@mrz:~$ ls -A              # View everyting except ( ., .. )
+rafsanjani@mrz:~$ ls -l              # View all visible with their details and long list formating ( l ) 
+rafsanjani@mrz:~$ ls -lh             # View all visible with their details and human readable file size ( h ) 
 ```
-#### Step 2: Display all file names with details
+#### Step 2: Display last (5) modified files with their details
 ```console
-rafsanjani@mrz:~$ ls -ltrh 
-```
-#### Step 3: Display last (5) modified files with their details
-```console
-rafsanjani@mrz:~$ ls -tlh | head -6        # t (sort by last modification time), l (long list), and h (human readable)
+rafsanjani@mrz:~$ ls -tlh | head -6        # t (sort by last modification time)
 ```
 
 &nbsp;
