@@ -47,6 +47,7 @@ rafsanjani@mrz:~$ ls -a              # View everyting includes ( ., .., .git )
 rafsanjani@mrz:~$ ls -A              # View everyting except ( ., .. )
 rafsanjani@mrz:~$ ls -l              # View all visible with their details and long list formating ( l ) 
 rafsanjani@mrz:~$ ls -lh             # View all visible with their details and human readable file size ( h ) 
+rafsanjani@mrz:~$ ls -d */           # View only directories
 ```
 #### Step 2: Display last (5) modified files with their details
 ```console
