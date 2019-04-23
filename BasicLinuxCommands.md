@@ -2,7 +2,6 @@
 &nbsp;
 
 ## 1. System Update and Upgrade
-#### Step 1: 
 ```console
 rafsanjani@mrz:~$ sudo apt update                           # Update
 rafsanjani@mrz:~$ sudo apt upgrade                          # Upgrade
