@@ -2,39 +2,27 @@
 &nbsp;
 
 ## 1. System Update and Upgrade
-#### Step 1: Update
+#### Step 1: 
 ```console
-rafsanjani@mrz:~$ sudo apt update 
+rafsanjani@mrz:~$ sudo apt update                           # Update
+rafsanjani@mrz:~$ sudo apt upgrade                          # Upgrade
+rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade Together
 ```
-
-#### Step 2: Upgrade
-```console
-rafsanjani@mrz:~$ sudo apt upgrade 
-```
-
-#### Step 3: Update and Upgrade Together
-```console
-rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade 
-```
-
 &nbsp;
 
-## 2. Kill Process (Process = Program)
-#### Step 1: Show the Running Process
+## 2. Kill Program Procedure
+#### Step 1: Show the Running Program
 ```console
 rafsanjani@mrz:~$ top           
 # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
 ```
 
-#### Step 2: Kill a Process
+#### Step 2: Kill Program
 ```console
-rafsanjani@mrz:~$ kill 3288 
-# Example: Here, 3288 is the process identity (PID), Then the programme (3288) will halt.
-```
+rafsanjani@mrz:~$ kill 3288             # Kill a particular program
+# Example: Here, 3288 is the process identity (PID), Then the program (3288) will halt.
 
-#### Step 3: Kill All the Process
-```console
-rafsanjani@mrz:~$ kill -9 -1 
+rafsanjani@mrz:~$ kill -9 -1            # Kill all the program
 ```
 
 &nbsp;
