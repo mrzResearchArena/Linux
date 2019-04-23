@@ -50,14 +50,9 @@ rafsanjani@mrz:~$ ls  *.fasta              # View all .fasta extension files
 
 #### Step 4: Display particular file in current dicrectory
 ```console
-rafsanjani@mrz:~$ ls | grep '.fasta'               # View all files that ends with .fasta extension
-rafsanjani@mrz:~$ ls | egrep '.fasta$'             # View all files that ends with .fasta extension
-afsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'       # View all files that ends with both .fasta and .fa extension
-```
-
-#### Step 5: Find all files  in current dicrectory
-```console
-r
+rafsanjani@mrz:~$ ls | grep '.fasta'               # View all files that ends with .fasta extension  
+rafsanjani@mrz:~$ ls | egrep '.fasta$'             # View all files that ends with .fasta extension  
+afsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'       # View all files that ends with both .fasta and .fa extension  
 ```
 
 &nbsp;
