@@ -19,7 +19,7 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade
 
 &nbsp;
 
-## 2. Kill Process (Programme)
+## 2. Kill Process (Process = Program)
 #### Step 1: Show the Running Process
 ```console
 rafsanjani@mrz:~$ top           
