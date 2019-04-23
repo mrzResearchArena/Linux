@@ -28,7 +28,7 @@ rafsanjani@mrz:~$ kill -9 -1            # Kill all the program
 ## 3. Display Files
 #### Step 1: Display all file names
 ```console
-rafsanjani@mrz:~$ ls                 
+rafsanjani@mrz:~$ ls                 # View all visible file and directory
 rafsanjani@mrz:~$ ls -1              # View in a single-line
 rafsanjani@mrz:~$ ls -a              # View everyting includes ( ., .., .anyName )
 rafsanjani@mrz:~$ ls -A              # View everyting except ( ., .. )
