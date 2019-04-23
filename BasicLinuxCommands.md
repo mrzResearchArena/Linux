@@ -43,15 +43,21 @@ rafsanjani@mrz:~$ ls -d */           # View only directories
 rafsanjani@mrz:~$ ls -tlh | head -6        # sort by last modification of time ( t )
 ```
 
-#### Step 3: Show all .fasta file in current dicrectory
+#### Step 3: Display particular file in current dicrectory (`without grep and egrep`)
 ```console
-rafsanjani@mrz:~$ ls | grep '.fasta'
-rafsanjani@mrz:~$ ls | egrep '.fasta$'
+rafsanjani@mrz:~$ ls  *.fasta              # View all .fasta extension files
 ```
 
-#### Step 4: Find all files that ends with .fasta and .fa in current dicrectory
+#### Step 4: Display particular file in current dicrectory
 ```console
-rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'
+rafsanjani@mrz:~$ ls | grep '.fasta'               # View all files that ends with .fasta extension
+rafsanjani@mrz:~$ ls | egrep '.fasta$'             # View all files that ends with .fasta extension
+afsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'       # View all files that ends with both .fasta and .fa extension
+```
+
+#### Step 5: Find all files  in current dicrectory
+```console
+r
 ```
 
 &nbsp;
