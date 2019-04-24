@@ -18,7 +18,7 @@ rafsanjani@mrz:~$ PS1='[@ \W]\$ '                           # Extra Small
 
 &nbsp;
 
-### 3. Kill Program Procedure
+### 3. Program Killing Procedure
 #### Step 1: Show the Running Program
 ```console
 rafsanjani@mrz:~$ top           
