@@ -56,7 +56,7 @@ rafsanjani@mrz:~$ ls -tlh | head -6        # sort by last modification of time (
 #### Step 3: Display particular file in current dicrectory (`without grep and egrep`)
 ```console
 rafsanjani@mrz:~$ ls *.fasta               # View all .fasta extension files
-rafsanjani@mrz:~$ ls *.fasta | wc -l       # View number of .fasta extension files
+rafsanjani@mrz:~$ ls *.fasta | wc -l       # View the total number of .fasta extension files
 ```
 
 #### Step 4: Display particular file in current dicrectory
