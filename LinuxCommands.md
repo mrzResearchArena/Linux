@@ -18,7 +18,7 @@ rafsanjani@mrz:~$ PS1='[@ \W]\$ '                           # Extra Small
 
 &nbsp;
 
-## 3. Kill Program Procedure
+### 3. Kill Program Procedure
 #### Step 1: Show the Running Program
 ```console
 rafsanjani@mrz:~$ top           
@@ -34,7 +34,7 @@ rafsanjani@mrz:~$ kill -9 -1            # Kill all the program
 ```
 &nbsp;
 
-## 4. Display Files and Directories
+### 4. Display Files and Directories
 
 #### Step 1: Display all file names
 ```console
@@ -67,7 +67,7 @@ rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'      # View all files that ends wi
 
 &nbsp;
 
-## 5. String Handling
+### 5. String Handling
 #### Step 1: Replace text segment (using sed)
 ```console
 rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt        (Change the text segment without replacement)
@@ -87,7 +87,7 @@ rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egr
 
 &nbsp;
 
-## 6. Regular Expression
+### 6. Regular Expression
 #### Step 1: Search a keyword from a file
 ```console
 rafsanjani@mrz:~$ grep 'keyword' fileName.txt
