@@ -89,7 +89,7 @@ rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 
 #### Step 2: Count the number of fasta sequence from a file (.fasta)
 ```console
-rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l 
+rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l              # Number of lines denotes by ( l )
 ```
 
 #### Step 3: Gmail Pattern
