@@ -7,10 +7,18 @@ rafsanjani@mrz:~$ sudo apt update                           # Update
 rafsanjani@mrz:~$ sudo apt upgrade                          # Upgrade
 rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade Together
 ```
+
 &nbsp;
 
+## 2. How to reduce terminal text? / Customizing BASH Prompt Text
+```console
+rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '            (Small)
+rafsanjani@mrz:~$ PS1='[@ \W]\$ '                (Extra Small)
+```
 
-## 2. Kill Program Procedure
+&nbsp;
+
+## 3. Kill Program Procedure
 #### Step 1: Show the Running Program
 ```console
 rafsanjani@mrz:~$ top           
@@ -24,9 +32,9 @@ rafsanjani@mrz:~$ kill 3288             # Kill a particular program
 
 rafsanjani@mrz:~$ kill -9 -1            # Kill all the program
 ```
-
 &nbsp;
-## 3. Display Files and Directories
+
+## 4. Display Files and Directories
 
 #### Step 1: Display all file names
 ```console
@@ -57,9 +65,7 @@ rafsanjani@mrz:~$ ls | egrep '.fasta$'             # View all files that ends wi
 rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'      # View all files that ends with both .fasta and .fa extension  
 ```
 
-
 &nbsp;
-
 
 ## 5. String Handling
 #### Step 1: Replace text segment (using sed)
@@ -77,14 +83,11 @@ rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                (Must use as a pi
 rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
 
 rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
-
 ```
 
 &nbsp;
 
-
-
-## 4. Regular Expression
+## 6. Regular Expression
 #### Step 1: Search a keyword from a file
 ```console
 rafsanjani@mrz:~$ grep 'keyword' fileName.txt
@@ -95,9 +98,6 @@ rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 ```console
 rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l 
 ```
-
-&nbsp;
-
 
 &nbsp;
 &nbsp;
