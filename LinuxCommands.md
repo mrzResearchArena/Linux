@@ -1,7 +1,7 @@
 # Linux Handling
 &nbsp;
 
-## 1. System Update and Upgrade
+### 1. System Update and Upgrade
 ```console
 rafsanjani@mrz:~$ sudo apt update                           # Update
 rafsanjani@mrz:~$ sudo apt upgrade                          # Upgrade
@@ -10,7 +10,7 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade
 
 &nbsp;
 
-## 2. How to reduce terminal text? / Customizing BASH Prompt Text
+### 2. How to reduce terminal text? / Customizing BASH Prompt Text
 ```console
 rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '                       # Small
 rafsanjani@mrz:~$ PS1='[@ \W]\$ '                           # Extra Small
