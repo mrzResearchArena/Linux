@@ -1,8 +1,6 @@
-# Linux Handling
+# Shell Programming
 
 &nbsp;
-
-## Shell Programming
 
 #### Step 1: Assigning Variable
 ```sh
