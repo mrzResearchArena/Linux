@@ -7,45 +7,10 @@
 rafsanjani@mrz:~$ PS1='[\u@\h \W]\$ '       (Small)
 rafsanjani@mrz:~$ PS1='[@ \W]\$ '           (Extra Small)
 ```
-&nbsp;
-
-## 2. Regular Expression
-#### Step 1: Search a keyword from a file
-```console
-rafsanjani@mrz:~$ grep 'keyword' fileName.txt
-rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
-```
-
-#### Step 2: Count the number of fasta sequence from a file (.fasta)
-```console
-rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l 
-```
 
 &nbsp;
 
-
-## 3. String Handling
-#### Step 1: Replace text segment (using sed)
-```console
-rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt        (Change the text segment without replacement)
-rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     (Change the text segment with replacement)
-```
-#### Step 2: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4))
-```console
-rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                (Must use as a pipeline)
-```
-
-#### Step 3: Gmail Pattern
-```console
-rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
-
-rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
-
-```
-
-&nbsp;
-
-## 4. Shell Programming
+## 2. Shell Programming
 
 #### Step 1: Assigning Variable
 ```sh
