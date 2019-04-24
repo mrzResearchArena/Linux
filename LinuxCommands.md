@@ -9,6 +9,7 @@ rafsanjani@mrz:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade
 ```
 &nbsp;
 
+
 ## 2. Kill Program Procedure
 #### Step 1: Show the Running Program
 ```console
@@ -55,6 +56,48 @@ rafsanjani@mrz:~$ ls | grep '.fasta'               # View all files that ends wi
 rafsanjani@mrz:~$ ls | egrep '.fasta$'             # View all files that ends with .fasta extension  
 rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'      # View all files that ends with both .fasta and .fa extension  
 ```
+
+
+&nbsp;
+
+
+## 5. String Handling
+#### Step 1: Replace text segment (using sed)
+```console
+rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt        (Change the text segment without replacement)
+rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     (Change the text segment with replacement)
+```
+#### Step 2: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4))
+```console
+rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                (Must use as a pipeline)
+```
+
+#### Step 3: Gmail Pattern
+```console
+rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
+
+rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
+
+```
+
+&nbsp;
+
+
+
+## 4. Regular Expression
+#### Step 1: Search a keyword from a file
+```console
+rafsanjani@mrz:~$ grep 'keyword' fileName.txt
+rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
+```
+
+#### Step 2: Count the number of fasta sequence from a file (.fasta)
+```console
+rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l 
+```
+
+&nbsp;
+
 
 &nbsp;
 &nbsp;
