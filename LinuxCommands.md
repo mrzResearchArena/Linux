@@ -78,13 +78,6 @@ rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     # Change the text
 rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                # tr must use as a pipeline
 ```
 
-#### Step 3: Gmail Pattern
-```console
-rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
-
-rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
-```
-
 &nbsp;
 
 ### 6. Regular Expression
@@ -97,6 +90,13 @@ rafsanjani@mrz:~$ cat fileName.txt | grep 'keyword'
 #### Step 2: Count the number of fasta sequence from a file (.fasta)
 ```console
 rafsanjani@mrz:~$ grep '>' fileName.fasta | wc -l 
+```
+
+#### Step 3: Gmail Pattern
+```console
+rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
+
+rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
 ```
 
 &nbsp;
