@@ -70,12 +70,12 @@ rafsanjani@mrz:~$ ls | egrep '*.fa$|*.fasta$'      # View all files that ends wi
 ### 5. String Handling
 #### Step 1: Replace text segment (using sed)
 ```console
-rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt        (Change the text segment without replacement)
-rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     (Change the text segment with replacement)
+rafsanjani@mrz:~$ sed 's/oldText/newText/' fileName.txt        # Change the text segment without replacement)
+rafsanjani@mrz:~$ sed -i 's/oldText/newText/' fileName.txt     # Change the text segment with replacement)
 ```
 #### Step 2: Replace text segment (using [tr](https://www.youtube.com/watch?v=i0Q8LRSiUZ4))
 ```console
-rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                (Must use as a pipeline)
+rafsanjani@mrz:~$ cat fileName.txt | tr '!' '.'                # tr must use as a pipeline
 ```
 
 #### Step 3: Gmail Pattern
