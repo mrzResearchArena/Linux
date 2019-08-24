@@ -107,30 +107,7 @@ rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/ho
 ```
 &nbsp;
 
-## 6. How to handle an anaconda virtual environment?
-
-#### Step 1: Create a virtual environment ####
-```console
-rafsanjani@mrz:~$ conda create -n anyName python=3.x anaconda
-```
-
-#### Step 2: Entering the virtual environment ####
-```console
-rafsanjani@mrz:~$ source activate anyName
-```
-
-#### Step 3: Detach from the virtual environment ####
-```console
-rafsanjani@mrz:~$ source deactivate
-```
-
-#### Step 4: Remove an user from virtual environment ####
-```console
-rafsanjani@mrz:~$ conda env remove --name anyName
-```
-&nbsp;
-
-## 7. How to access jupyter notebook remotely?
+## 6. How to access jupyter notebook remotely?
 
 #### Step 1: Run on a remote machine ####
 ```console
@@ -168,7 +145,7 @@ localhost:8888/tree
 
 &nbsp;
 
-## 8. Space Optimization!
+## 7. Space Optimization!
 
 #### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
