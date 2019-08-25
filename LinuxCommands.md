@@ -101,6 +101,19 @@ rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egr
 ```
 
 &nbsp;
+
+### 7. TTY Mode
+```console
+rafsanjani@mrz:~$ sudo chvt 7                        # Try 1, 2, 3, ... 7
+
+or, we can use shortcut key: control + alter + F7    # Try F1, F2, F3, ... F7
+```
+
+
 &nbsp;
+&nbsp;
+
+
+
 
 **Note:** The step doesn't mean you have to follow one by one.
