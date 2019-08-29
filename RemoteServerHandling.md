@@ -18,7 +18,8 @@ rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
 
 #### Step 3: RAM Status
 ```console
-rafsanjani@mrz:~$ free -h
+rafsanjani@mrz:~$ free -h                        # RAM capacity
+rafsanjani@mrz:~$ sudo dmidecode --type 17       # RAM information
 ```
 
 #### Step 4: HDD (Hard Disk Drive) Status
