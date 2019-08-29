@@ -2,7 +2,7 @@
 
 &nbsp;
 
-#### Check Internet Speed
+#### 1. Check Internet Speed
 ```console
 user@machine:~$ speedtest-cli    # Install: pip install speedtest-cli
 ```
