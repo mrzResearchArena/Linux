@@ -11,6 +11,9 @@ echo $v
 ```
 ###### Note: There will be `no space` before and after `equal sign`.
 
+&nbsp;
+&nbsp;
+
 #### Step 2: Conditional Operation (if-else)
 
 ##### Step 1: Check Numbers
@@ -21,6 +24,9 @@ else
     echo 'action, else works.'
 fi
 ```
+
+&nbsp;
+&nbsp;
 
 #### Step 3: Iteration (Loop)
 
@@ -59,6 +65,9 @@ for i in $v; do
     fi
 done
 ```
+
+&nbsp;
+&nbsp;
 
 #### Step 3: Array
 
