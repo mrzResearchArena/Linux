@@ -11,7 +11,18 @@ echo $v
 ```
 ###### Note: There will be `no space` before and after `equal sign`.
 
-#### Step 2: Loop
+#### Step 2: Conditional Operation (if-else)
+
+##### Step 1: Check Numbers
+```sh
+if [ 2 -lt 3 ]; then
+    echo 'action, if works.'
+else
+    echo 'action, else works.'
+fi
+```
+
+#### Step 3: Iteration (Loop)
 
 ##### Step 1: Simple Print Number
 ```sh
