@@ -18,14 +18,15 @@ echo $v
 
 ##### Step 1: Check Numbers
 ```sh
-if [ 2 -lt 3 ]; then
+if [ 2 -lt 3 ]; then # 2 < 3
     echo 'action, if works.'
 else
     echo 'action, else works.'
 fi
 ```
 
-***Note:*** We can't use [2 -lt 3]; use prpper `space`.
+***Note:*** We can't use [2 -lt 3]; use proper `space`.
+***Note:*** [Documentation](https://www.linuxtechi.com/compare-numbers-strings-files-in-bash-script/).
 
 &nbsp;
 &nbsp;
