@@ -9,7 +9,7 @@ v=$(ls | egrep '*.fa$|*.fasta$')         # using $( )
 
 echo $v
 ```
-###### Note: There will be `no space` before and after `equal sign`.
+***Note:*** There will be `no space` before and after `equal sign`.
 
 &nbsp;
 &nbsp;
@@ -24,6 +24,8 @@ else
     echo 'action, else works.'
 fi
 ```
+
+***Note:*** We can't use [2 -lt 3]; use prpper `space`.
 
 &nbsp;
 &nbsp;
