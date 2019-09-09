@@ -25,8 +25,9 @@ else
 fi
 ```
 
-***Note:*** We can't use [2 -lt 3]; use proper `space`.
-***Note:*** [Documentation](https://www.linuxtechi.com/compare-numbers-strings-files-in-bash-script/).
+***Note-1:*** We can't use [2 -lt 3]; use proper `space`.
+
+***Note-2:*** [Documentation](https://www.linuxtechi.com/compare-numbers-strings-files-in-bash-script/).
 
 &nbsp;
 &nbsp;
