@@ -40,7 +40,7 @@ for i in {1..9..2}; do
     echo $i
 done
 
-Output (Like): 1, 3, 5, 7, 9
+# Output (Like): 1, 3, 5, 7, 9
 ```
 
 ##### Step 2: Simple Print (Itemized)
@@ -49,7 +49,7 @@ for i in 1 9 2; do
     echo $i
 done
 
-Output (Like): 1, 9, 2
+# Output (Like): 1, 9, 2
 ```
 
 ##### Step 3: Show file name one-by-one
