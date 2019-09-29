@@ -66,6 +66,12 @@ user@mrz:~$ ls | egrep '.fasta$'             # View all files that ends with .fa
 user@mrz:~$ ls | egrep '*.fa$|*.fasta$'      # View all files that ends with both .fasta and .fa extension  
 ```
 
+#### Step 5: Find the expected files
+```console
+user@mrz:~$ find /home/mrz/Desktop/Bk/MakeDB -name '*.pssm'  # View all files that ends with .fasta extension  
+```
+
+
 &nbsp;
 
 ### 5. String Handling
