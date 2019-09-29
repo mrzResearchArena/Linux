@@ -3,9 +3,9 @@
 
 ### 1. System Update and Upgrade
 ```console
-user@m:~$ sudo apt update                           # Update
-user@mrz:~$ sudo apt upgrade                          # Upgrade
-user@mrz:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade Together
+user@machine:~$ sudo apt update                           # Update
+user@machine:~$ sudo apt upgrade                          # Upgrade
+user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade Together
 ```
 
 &nbsp;
@@ -95,9 +95,9 @@ user@mrz:~$ grep '>' fileName.fasta | wc -l              # Number of lines denot
 
 #### Step 3: Gmail Pattern
 ```console
-user@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
+user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
 
-rafsanjani@mrz:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
+user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
 ```
 
 &nbsp;
