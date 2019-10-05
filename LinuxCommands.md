@@ -53,7 +53,7 @@ user@machine:~$ ls  anyDirectory    # View all visible file and directory for an
 user@machine:~$ ls -tlh | head -6        # sort by last modification of time ( t )
 ```
 
-#### Step 3: Display particular file in current dicrectory (`without grep and egrep`)
+#### Step 3: Display particular file in current dicrectory (`without grep and grep -E`)
 ```console
 user@machine:~$ ls *.fasta               # View all .fasta extension files
 user@machine:~$ ls *.fasta | wc -l       # View the total number of .fasta extension files
