@@ -63,7 +63,9 @@ user@mrz:~$ ls *.fasta | wc -l       # View the total number of .fasta extension
 ```console
 user@mrz:~$ ls | grep '.fasta'                  # View all files that ends with .fasta extension  
 user@mrz:~$ ls | grep -E '\.fasta$'             # View all files that ends with .fasta extension  
-user@mrz:~$ ls | grep -E '*\.fa$|*\.fasta$'     # View all files that ends with both .fasta and .fa extension  
+user@mrz:~$ ls | grep -E '*\.fa$|*\.fasta$'     # View all files that ends with both .fasta and .fa extension
+
+# -E, is for the regular expression.
 ```
 
 #### Step 5: Find the expected files
