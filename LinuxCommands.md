@@ -21,7 +21,7 @@ user@machine:~$ PS1='[@ \W]\$ '                           # Extra Small
 ### 3. Program Killing Procedure
 #### Step 1: Show the Running Program
 ```console
-user@machine:~$ top           
+user@machine:~$ top
 # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
 ```
 
