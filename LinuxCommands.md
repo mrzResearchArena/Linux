@@ -55,8 +55,9 @@ user@machine:~$ ls -tlh | head -6        # sort by last modification of time ( t
 
 #### Step 3: Display particular file in current dicrectory (`without grep and grep -E`)
 ```console
-user@machine:~$ ls *.fasta               # View all .fasta extension files
-user@machine:~$ ls *.fasta | wc -l       # View the total number of .fasta extension files
+user@machine:~$ ls *.fasta                 # View all .fasta extension files
+user@machine:~$ ls *.fasta | wc -l         # View the total number of .fasta extension files
+user@machine:~$ ls -1 *.fasta | sort -n   # View all .fasta extension files in increasing order
 ```
 
 #### Step 4: Display particular file in current dicrectory
