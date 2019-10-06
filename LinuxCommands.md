@@ -110,7 +110,13 @@ user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep
 
 &nbsp;
 
-### 7. TTY Mode
+### 7. Download file from the website
+#### Step 1: Download `nr` dataset from NCBI website
+```console
+user@machine:~$ wget 'ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.*.tar.gz'
+```
+
+### 8. TTY Mode
 ```console
 user@machine:~$ sudo chvt 7                        # Try 1, 2, 3, ... 7
 
