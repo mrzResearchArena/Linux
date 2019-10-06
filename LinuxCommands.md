@@ -61,9 +61,10 @@ user@machine:~$ ls *.fasta | wc -l       # View the total number of .fasta exten
 
 #### Step 4: Display particular file in current dicrectory
 ```console
-user@machine:~$ ls | grep '.fasta'                  # View all files that ends with .fasta extension  
-user@machine:~$ ls | grep -E '\.fasta$'             # View all files that ends with .fasta extension  
-user@machine:~$ ls | grep -E '*\.fa$|*\.fasta$'     # View all files that ends with both .fasta and .fa extension
+user@machine:~$ ls | grep '.fasta'                   # View all files that ends with .fasta extension  
+user@machine:~$ ls | grep -E '\.fasta$'              # View all files that ends with .fasta extension  
+user@machine:~$ ls | grep -E '*\.fa$|*\.fasta$'      # View all files that ends with both .fasta and .fa extension
+user@machine:~$ ls -1 | grep -E '*\.fasta$'| wc -l   # Find all .fasta files from a location
 
 # -E, is for the regular expression.
 ```
