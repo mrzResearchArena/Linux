@@ -112,7 +112,8 @@ user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep
 
 &nbsp;
 
-### 7. Download file from the website
+### 7. Download file from the website 
+#### 7.1 Download Files from the FTP Server 
 ```console
 user@machine:~$ wget 'ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.*.tar.gz'   # Download `nr` dataset from the NCBI website   
 ```
