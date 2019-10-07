@@ -144,14 +144,25 @@ user@machine:~$ gunzip *.fasta.gz                      # *.fasta.gz       --> *.
 user@machine:~$ bzip2   anyName.fasta                  # anyName.fasta      --> anyName.fasta.bz2
 user@machine:~$ bunzip2 anyName.fasta.bz2              # anyName.fasta.bz2  --> anyName.fasta
 
-user@machine:~$ bzip2   *.fasta                        # *.fasta           --> *.fasta.bz2
-user@machine:~$ bunzip2 *.fasta.gz                     # *.fasta.bz2       --> *.fasta
+user@machine:~$ bzip2   *.fasta                        # *.fasta            --> *.fasta.bz2
+user@machine:~$ bunzip2 *.fasta.gz                     # *.fasta.bz2        --> *.fasta
 ```
 
+#### 8.3 Compress/Uncompress Directory
+##### 8.3.1 Compress Directory
+```console
+user@machine:~$ tar -cvf anyName.tar *.fasta           # -c, is for create a .tar file
+user@machine:~$ gzip anyName.tar                       # Or, bzip2 anyName.tar
+```
+
+##### 8.3.2 Uncompress Directory
+```console
+user@machine:~$ gunzip anyName.tar.gz                   # Or, bunzip2 anyName.tar.bz2
+user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the .tar file
+```
 
 &nbsp;
 &nbsp;
-
 
 
 **Note:** The step doesn't mean you have to follow one by one.
