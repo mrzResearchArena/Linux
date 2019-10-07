@@ -129,9 +129,11 @@ user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7
 
 &nbsp;
 
-### 8. Compress the File and Directory 
+### 8. Compress/Uncompress the File and Directory
+#### 8.1 Compress/Uncompress file using `gzip`
 ```console
-user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7
+user@machine:~$ gzip   anyName.fasta                   # anyName.fasta    --> anyName.fasta.gz
+user@machine:~$ gunzip anyName.fasta.gz                # anyName.fasta.gz --> anyName.fasta
 ```
 
 
