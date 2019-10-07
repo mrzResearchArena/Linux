@@ -134,6 +134,18 @@ user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7
 ```console
 user@machine:~$ gzip   anyName.fasta                   # anyName.fasta    --> anyName.fasta.gz
 user@machine:~$ gunzip anyName.fasta.gz                # anyName.fasta.gz --> anyName.fasta
+
+user@machine:~$ gzip   *.fasta                         # *.fasta          --> *.fasta.gz
+user@machine:~$ gunzip *.fasta.gz                      # *.fasta.gz       --> *.fasta
+```
+
+#### 8.2 Compress/Uncompress file using `bzip2`
+```console
+user@machine:~$ bzip2   anyName.fasta                  # anyName.fasta      --> anyName.fasta.bz2
+user@machine:~$ bunzip2 anyName.fasta.bz2              # anyName.fasta.bz2  --> anyName.fasta
+
+user@machine:~$ bzip2   *.fasta                         # *.fasta           --> *.fasta.bz2
+user@machine:~$ bunzip2 *.fasta.gz                      # *.fasta.bz2       --> *.fasta
 ```
 
 
