@@ -19,13 +19,13 @@ user@machine:~$ PS1='[@ \W]\$ '                           # Extra Small
 &nbsp;
 
 ### 3. Program Killing Procedure
-#### Step 1: Show the Running Program
+#### Step 1: Show the all running program
 ```console
 user@machine:~$ top
 # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
 ```
 
-#### Step 2: Kill Program
+#### Step 2: Kill program(s)
 ```console
 user@machine:~$ kill 3288             # Kill a particular program
 # Example: Here, 3288 is the process identity (PID), Then the program (3288) will halt.
@@ -122,9 +122,16 @@ user@machine:~$ wget 'ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.*.tar.gz'   # Downl
 
 ### 8. TTY Mode
 ```console
-user@machine:~$ sudo chvt 7                        # Try 1, 2, 3, ... 7
+user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7 
 
-or, we can use shortcut key: control + alter + F7    # Try F1, F2, F3, ... F7
+# or, we can use shortcut key: control + alter + F7    # Try F1, F2, F3, ... F7 
+```
+
+&nbsp;
+
+### 8. Compress the File and Directory 
+```console
+user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7
 ```
 
 
