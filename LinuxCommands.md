@@ -144,8 +144,8 @@ user@machine:~$ gunzip *.fasta.gz                      # *.fasta.gz       --> *.
 user@machine:~$ bzip2   anyName.fasta                  # anyName.fasta      --> anyName.fasta.bz2
 user@machine:~$ bunzip2 anyName.fasta.bz2              # anyName.fasta.bz2  --> anyName.fasta
 
-user@machine:~$ bzip2   *.fasta                         # *.fasta           --> *.fasta.bz2
-user@machine:~$ bunzip2 *.fasta.gz                      # *.fasta.bz2       --> *.fasta
+user@machine:~$ bzip2   *.fasta                        # *.fasta           --> *.fasta.bz2
+user@machine:~$ bunzip2 *.fasta.gz                     # *.fasta.bz2       --> *.fasta
 ```
 
 
