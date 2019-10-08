@@ -6,32 +6,35 @@
 
 #### Step 1: Information about OS
 ```console
-rafsanjani@mrz:~$ uname -a
+user@machine:~$ uname -a
 ```
 
 #### Step 2: Processor Model
 ```console
-rafsanjani@mrz:~$ lscpu | grep 'Model name'
-rafsanjani@mrz:~$ cat /proc/cpuinfo | grep 'model name'
+user@machine:~$ lscpu | grep 'Model name'
+user@machine:~$ cat /proc/cpuinfo | grep 'model name'
 ```
 
 
 #### Step 3: RAM Status
 ```console
-rafsanjani@mrz:~$ free -h                        # RAM capacity
-rafsanjani@mrz:~$ sudo dmidecode --type 17       # RAM information
+user@machine:~$ free -h                        # RAM capacity
+user@machine:~$ sudo dmidecode --type 17       # RAM information
 ```
 
 #### Step 4: HDD (Hard Disk Drive) Status
 
 ##### Step 4.1: Working Drive (Dual Boot Mode OS)
 ```console
-rafsanjani@mrz:~$ df -h
+user@machine:~$ df -h                            # Show HDD space
+
+user@machine:~$ du -h --max-depth=1 /home/user   # Find the disk used for the particular location.
+user@machine:~$ du -h -s /home/user              # -s, is for the summarizing the given location size.
 ```
 
 ##### Step 4.2: Whole HDD Information (Identifying the Partition Type)
 ```console
-rafsanjani@mrz:~$ sudo fdisk -l
+user@machine:~$ sudo fdisk -l
 ```
 
 &nbsp;
