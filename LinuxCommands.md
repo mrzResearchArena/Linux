@@ -162,8 +162,6 @@ user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the
 # Suggestion: Use graphical mode for the directory uncompression, if the directory is small-sized.
 ```
 
-**Note:** gunzip, is also gzip -d, and bzip2, is als
-
 &nbsp;
 &nbsp;
 
