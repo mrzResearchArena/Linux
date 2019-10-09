@@ -31,9 +31,9 @@ user@machine:~$ sudo dmidecode --type 17       # RAM information
 
 ##### Step 4.1: Working Drive (Dual Boot Mode OS)
 ```console
-user@machine:~$ df -h                            # Show HDD space
+user@machine:~$ df -h                            # Show disk usage
 
-user@machine:~$ du -h --max-depth=1 /home/user   # Find the disk used for the particular location.
+user@machine:~$ du -h --max-depth=1 /home/user   # Show the directory space usage for the particular location.
 user@machine:~$ du -h -s /home/user              # -s, is for the summarizing the given location size.
 ```
 
