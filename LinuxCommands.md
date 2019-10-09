@@ -132,19 +132,19 @@ user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7
 #### 8.1 Compress/Uncompress file using `gzip`
 ```console
 user@machine:~$ gzip   anyName.fasta                   # anyName.fasta    --> anyName.fasta.gz
-user@machine:~$ gunzip anyName.fasta.gz                # anyName.fasta.gz --> anyName.fasta
+user@machine:~$ gunzip anyName.fasta.gz                # anyName.fasta.gz --> anyName.fasta      # gzip -d anyName.fasta.gz
 
 user@machine:~$ gzip   *.fasta                         # *.fasta          --> *.fasta.gz
-user@machine:~$ gunzip *.fasta.gz                      # *.fasta.gz       --> *.fasta
+user@machine:~$ gunzip *.fasta.gz                      # *.fasta.gz       --> *.fasta            # gzip -d *.fasta.gz
 ```
 
 #### 8.2 Compress/Uncompress file using `bzip2`
 ```console
 user@machine:~$ bzip2   anyName.fasta                  # anyName.fasta      --> anyName.fasta.bz2
-user@machine:~$ bunzip2 anyName.fasta.bz2              # anyName.fasta.bz2  --> anyName.fasta
+user@machine:~$ bunzip2 anyName.fasta.bz2              # anyName.fasta.bz2  --> anyName.fasta     # bzip2 -d anyName.fasta.bz2
 
 user@machine:~$ bzip2   *.fasta                        # *.fasta            --> *.fasta.bz2
-user@machine:~$ bunzip2 *.fasta.gz                     # *.fasta.bz2        --> *.fasta
+user@machine:~$ bunzip2 *.fasta.bz2                    # *.fasta.bz2        --> *.fasta           # bzip2 -d *.fasta.bz2
 ```
 
 #### 8.3 Compress/Uncompress Directory
@@ -161,6 +161,8 @@ user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the
 
 # Suggestion: Use graphical mode for the directory uncompression, if the directory is small-sized.
 ```
+
+**Note:** gunzip, is also gzip -d, and bzip2, is als
 
 &nbsp;
 &nbsp;
