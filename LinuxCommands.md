@@ -78,7 +78,7 @@ user@machine:~$ find /home/mrz/Desktop/Bk/MakeDB -type d -name 'pssm'  # -type d
 user@machine:~$ find / -size 10M                                       # Find file which is more than 10 MB
 ```
 
-#### Step 5: Find the expected files from the `any` location (Search whole filesystems)
+#### Step 6: Find the expected files from the `any` location (Search whole filesystems)
 ```console
 user@machine:~$ locate '*.pssm'     # View all files that ends with .fasta extension
 user@machine:~$ locate -i '*.pssm'  # -i, is for the case insensitive
