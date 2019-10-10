@@ -70,9 +70,15 @@ user@machine:~$ ls -1 | grep -E '*\.fasta$'| wc -l   # Find all .fasta files fro
 # -E, is for the regular expression.
 ```
 
-#### Step 5: Find the expected files
+#### Step 5: Find the expected files from the `desired` location
 ```console
 user@machine:~$ find /home/mrz/Desktop/Bk/MakeDB -name '*.pssm'  # View all files that ends with .fasta extension  
+```
+
+#### Step 5: Find the expected files from the `any` location
+```console
+user@machine:~$ locate '*.pssm'     # View all files that ends with .fasta extension
+user@machine:~$ locate -i '*.pssm'  # -i, is for the case insensitive
 ```
 
 
