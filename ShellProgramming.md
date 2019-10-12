@@ -54,7 +54,7 @@ done
 
 ##### Step 3: Show file name one-by-one
 ```sh
-v=`ls | egrep '*.fa$|*.fasta$'`
+v=`ls | grep -E '*.fa$|*.fasta$'`
 
 for i in $v; do
     echo $i
