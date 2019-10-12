@@ -4,8 +4,8 @@
 
 #### Step 1: Assigning Variable
 ```sh
-v=`ls | egrep '*.fa$|*.fasta$'`          # using ` `
-v=$(ls | egrep '*.fa$|*.fasta$')         # using $( )
+v=`ls | grep -E '*.fa$|*.fasta$'`          # using ` `
+v=$(ls | grep -E '*.fa$|*.fasta$')         # using $( )
 
 echo $v
 ```
