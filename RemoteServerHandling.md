@@ -12,7 +12,7 @@ user@machine:~$ uname -a          # All informatics about OS
 user@machine:~$ uname -r          # Kernel Release      --> 4.15.0-65-generic
 user@machine:~$ uname -v          # Kernel Version      --> #74~16.04.1-Ubuntu
 user@machine:~$ arch              # Kernel Architecture --> x86_64 (64 bits)
-user@machine:~$ lsb_release -a    # Distributor ID:	Ubuntu, Description: Ubuntu 18.04.3 LTS, Release:	18.04, Codename:	bionic
+user@machine:~$ lsb_release -a    # Distributor ID: Ubuntu, Description: Ubuntu 18.04.3 LTS, Release: 18.04, Codename: bionic
 ```
 
 #### Step 2: Processor Model
