@@ -97,6 +97,10 @@ rafsanjani@mrz:~$ screen -r anySocketName
 ```console
 rafsanjani@mrz:~$ screen -S anySocketName -X quit
 ```
+#### Step 6: Know the Current Socket Name
+```console
+rafsanjani@mrz:~$ echo $STY
+```
 
 &nbsp;
 
