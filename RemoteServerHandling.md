@@ -73,27 +73,27 @@ Output: True (available), or False (NOT available)!
 
 ## 4. How does screen work?
 
-#### Step 1: Current status of the running socket(s)
+#### Step 1: Current Status of the Running Socket(s)
 ```console
 rafsanjani@mrz:~$ screen -list
 ```
 
-#### Step 2: Generate a socket
+#### Step 2: Generate a Socket
 ```console
 rafsanjani@mrz:~$ screen -S anySocketName
 ```
 
-#### Step 3: Detach screen without killing the socket
+#### Step 3: Detach Screen without Killing the Socket
 ```console
 rafsanjani@mrz:~$ control + A + D 
 ```
 
-#### Step 4: Resume the socket after detach
+#### Step 4: Resume the Socket after Detach
 ```console
 rafsanjani@mrz:~$ screen -r anySocketName
 ```
 
-#### Step 5: Kill a socket
+#### Step 5: Kill a Socket
 ```console
 rafsanjani@mrz:~$ screen -S anySocketName -X quit
 ```
