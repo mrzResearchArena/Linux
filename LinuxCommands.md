@@ -157,14 +157,20 @@ user@machine:~$ bzip2   *.fasta                        # *.fasta            --> 
 user@machine:~$ bunzip2 *.fasta.bz2                    # *.fasta.bz2        --> *.fasta           # bzip2 -d *.fasta.bz2
 ```
 
-#### 8.3 Compress/Uncompress Directory
-##### 8.3.1 Compress Directory
+#### 8.3 Compress/Uncompress file using `zip` (The most common technique)
+```console 
+user@machine:~$ zip -r anyName.zip anyName             # anyName            --> anyName.zip
+user@machine:~$ unzip anyName.zip                      # anyName.zip        --> anyName
+```
+
+#### 8.4 Compress/Uncompress Directory
+##### 8.4.1 Compress Directory
 ```console
 user@machine:~$ tar -cvf anyName.tar *.fasta           # -c, is for create a .tar file
 user@machine:~$ gzip anyName.tar                       # Or, bzip2 anyName.tar
 ```
 
-##### 8.3.2 Uncompress Directory
+##### 8.4.2 Uncompress Directory
 ```console
 user@machine:~$ gunzip anyName.tar.gz                   # Or, bunzip2 anyName.tar.bz2
 user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the .tar file
