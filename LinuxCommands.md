@@ -163,7 +163,7 @@ user@machine:~$ zip -r anyName.zip anyName             # anyName            --> 
 user@machine:~$ unzip anyName.zip                      # anyName.zip        --> anyName
 ```
 
-#### 8.4 Compress/Uncompress Directory
+#### 8.4 Compress/Uncompress file using `.tar.gz or .tar`
 ##### 8.4.1 Compress Directory
 ```console
 user@machine:~$ tar -cvf anyName.tar *.fasta           # -c, is for create a .tar file
