@@ -85,7 +85,7 @@ rafsanjani@mrz:~$ screen -S anySocketName
 
 #### Step 3: Detach Screen without Killing the Socket
 ```console
-rafsanjani@mrz:~$ control + A + D      # The shortcut for the logout.
+rafsanjani@mrz:~$ control + A + D        # The shortcut for the logout.
 ```
 
 #### Step 4: Resume the Socket after Detach
