@@ -120,11 +120,9 @@ rafsanjani@mrz:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/l
 ```console
 rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
 ```
-&nbsp;
-
-#### Step 1: How to copy all files to HDD?
+#### Step 3: How to copy all files to HDD?
 ```console
-user@machine:~$ cp /home/user/ /media/user/BACKUP
+user@machine:~$ cp -rf /home/user/ /media/user/BACKUP
 ```
 &nbsp;
 
