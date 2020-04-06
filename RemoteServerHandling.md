@@ -122,6 +122,12 @@ rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/ho
 ```
 &nbsp;
 
+#### Step 1: How to copy all files to HDD?
+```console
+user@machine:~$ cp /home/user/ /media/user/BACKUP
+```
+&nbsp;
+
 ## 6. How to access jupyter notebook remotely?
 
 #### Step 1: Run on a remote machine ####
