@@ -179,6 +179,13 @@ user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the
 ```
 
 &nbsp;
+
+### 9. Install .deb File
+```console
+user@machine:~$ sudo apt install <anyName>.deb
+```
+
+&nbsp;
 &nbsp;
 
 
