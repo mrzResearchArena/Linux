@@ -173,7 +173,8 @@ user@machine:~$ gzip anyName.tar                       # Or, bzip2 anyName.tar
 ##### 8.4.2 Uncompress Directory
 ```console
 user@machine:~$ gunzip anyName.tar.gz                   # Or, bunzip2 anyName.tar.bz2
-user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the .tar file
+user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the *.tar file
+user@machine:~$ tar -xvzf anyName.tar.gz                # Direct uncompress *.tar.gz file
 
 # Suggestion: Use graphical mode for the directory uncompression, if the directory is small-sized.
 ```
