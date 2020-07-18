@@ -28,9 +28,9 @@ user@machine:~$
 user@machine:~$ 
 user@machine:~$ sudo gpasswd -d bioHub sudo   ### Remove the Root Privilege
 ```
-**References:
-**1. Create a sudo user [[web](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart)]
-**2. Remove the root prililege [[web](https://askubuntu.com/questions/335987/remove-sudo-privileges-from-a-user-without-deleting-the-user)]
+References:
+[1]. Create a sudo user [[web](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart)]
+[2]. Remove the root privilege [[web](https://askubuntu.com/questions/335987/remove-sudo-privileges-from-a-user-without-deleting-the-user)]
 
 
 
