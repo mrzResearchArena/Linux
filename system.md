@@ -34,5 +34,5 @@ user@machine:~$ sudo gpasswd -d bioHub sudo   ### Remove the Root Privilege
 [2]. Remove the Root Privilege-1 ([web](https://askubuntu.com/questions/335987/remove-sudo-privileges-from-a-user-without-deleting-the-user))
 [3]. Remove the Root Privilege-2 ([web](https://www.liquidweb.com/kb/remove-delete-user-ubuntu-16-04/))
 [4]. Create User and Remove the Root Privilege ([web](https://www.ostechnix.com/how-to-grant-and-remove-sudo-privileges-to-users-on-ubuntu/))
-[5]. Restore the Root Privilege ([web](https://www.ostechnix.com/how-to-restore-sudo-privileges-to-a-user/))11
+[5]. Restore the Root Privilege ([web](https://www.ostechnix.com/how-to-restore-sudo-privileges-to-a-user/))
 ```
