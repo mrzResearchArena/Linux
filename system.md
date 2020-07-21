@@ -9,7 +9,7 @@ user@machine:~$ speedtest-cli    # Install: pip install speedtest-cli
 
 &nbsp;
 
-### 2. How to reduce terminal text? / Customizing BASH Prompt Text
+#### 2. How to reduce terminal text? / Customizing BASH Prompt Text
 ```console
 user@machine:~$ PS1='[\u@\h \W]\$ '                       # Small
 user@machine:~$ PS1='[@ \W]\$ '                           # Extra Small
