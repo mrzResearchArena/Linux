@@ -10,14 +10,6 @@ user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade T
 
 &nbsp;
 
-### 2. How to reduce terminal text? / Customizing BASH Prompt Text
-```console
-user@machine:~$ PS1='[\u@\h \W]\$ '                       # Small
-user@machine:~$ PS1='[@ \W]\$ '                           # Extra Small
-```
-
-&nbsp;
-
 ### 3. Program Killing Procedure
 #### Step 1: Show the all running program
 ```console
