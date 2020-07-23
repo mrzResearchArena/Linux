@@ -2,14 +2,14 @@
 
 &nbsp;
 
-#### 1. Check Internet Speed
+### 1. Check Internet Speed
 ```console
 user@machine:~$ speedtest-cli    # Install: pip install speedtest-cli
 ```
 
 &nbsp;
 
-#### 2. How to reduce terminal text? / Customizing BASH Prompt Text
+### 2. How to reduce terminal text? / Customizing BASH Prompt Text
 ```console
 user@machine:~$ PS1='[\u@\h \W]\$ '                       # Small
 user@machine:~$ PS1='[@ \W]\$ '                           # Extra Small
@@ -17,7 +17,7 @@ user@machine:~$ PS1='[@ \W]\$ '                           # Extra Small
 
 &nbsp;
 
-#### 2. Find the MAC Address
+### 3. Find the MAC Address
 ```console
 user@machine:~$ ifconfig | grep 'HWaddr' 
 
@@ -26,7 +26,7 @@ user@machine:~$ ifconfig | grep 'HWaddr'
 
 &nbsp;
 
-#### 3. Fixed the Compiz Configure Issue
+### 4. Fixed the Compiz Configure Issue
 ```console
 user@machine:~$ dconf reset -f /org/compiz
 user@machine:~$ setsid unity  # (If doesn't work: sudo apt install unity.)
@@ -35,15 +35,13 @@ user@machine:~$ unity --reset-icons
 
 &nbsp;
 
-#### 4. Create a New User and Remove the Root Privilege
+### 5. Create a New User and Remove the Root Privilege
 ```console
 user@machine:~$ 
 user@machine:~$ 
 user@machine:~$ 
 user@machine:~$ sudo gpasswd -d bioHub sudo   ### Remove the Root Privilege
 ```
-
-&nbsp;
 
 ##### References:
 1. Create a SUDO User ([web](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart))
