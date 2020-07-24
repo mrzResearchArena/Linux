@@ -37,10 +37,9 @@ user@machine:~$ unity --reset-icons
 
 ### 5. Create a New User and Remove the Root Privilege
 ```console
-user@machine:~$ 
-user@machine:~$ 
-user@machine:~$ 
-user@machine:~$ sudo gpasswd -d bioHub sudo   ### Remove the Root Privilege
+user@machine:~$ sudo adduser anyName           ### Add a New User
+user@machine:~$ sudo usermod -aG sudo anyName  ### Add the Root Privilege
+user@machine:~$ sudo gpasswd -d anyName sudo   ### Remove the Root Privilege
 ```
 
 ##### References:
