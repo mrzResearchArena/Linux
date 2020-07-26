@@ -47,7 +47,8 @@ user@machine:~$ sudo fdisk -l
 &nbsp;
 
 ## 2. Ubuntu Installation for Deep Learning 
-#### Step 1: Setup [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
+#### Step 1: Fulll Setup [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
+#### Seep 2: GPU Setup [ [by clicking here!](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/installGPU.sh) ]
 
 &nbsp;
 
