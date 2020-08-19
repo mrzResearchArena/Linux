@@ -76,7 +76,7 @@ Output: True (available), or False (NOT available)!
 
 #### Step 1: Current Status of the Running Socket(s)
 ```console
-rafsanjani@mrz:~$ screen -list
+rafsanjani@mrz:~$ screen -list   # screen -ls
 ```
 
 #### Step 2: Generate a Socket
