@@ -99,12 +99,17 @@ rafsanjani@mrz:~$ screen -r anySocketName
 rafsanjani@mrz:~$ screen -S anySocketName -X quit
 ```
 
-#### Step 6: Remove Dead Screen
+#### Step 6: Kill All Screen
+```console
+rafsanjani@mrz:~$ killall screen
+```
+
+#### Step 7: Remove Dead Screen
 ```console
 rafsanjani@mrz:~$ screen -wipe
 ```
 
-#### Step 7: Know the Current Socket Name
+#### Step 8: Know the Current Socket Name
 ```console
 rafsanjani@mrz:~$ echo $STY
 ```
