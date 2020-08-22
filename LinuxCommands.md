@@ -166,7 +166,7 @@ user@machine:~$ unzip anyName.zip                      # anyName.zip        --> 
 
 &nbsp;
 
-### 8. Install .deb File
+### 8. Install ~.deb File
 ```console
 user@machine:~$ sudo apt install ./<anyName>.deb
 ```
