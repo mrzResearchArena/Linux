@@ -35,14 +35,23 @@ user@machine:~$ unity --reset-icons
 
 &nbsp;
 
-### 5. Create a New User and Remove the Root Privilege
+### 5. TTY Mode
+```console
+user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7 
+
+# or, we can use shortcut key: control + alter + F7    # Try F1, F2, F3, ... F7 
+```
+
+&nbsp;
+
+### 6. Create a New User and Remove the Root Privilege
 ```console
 user@machine:~$ sudo adduser anyName           ### Add a New User
 user@machine:~$ sudo usermod -aG sudo anyName  ### Add the Root Privilege
 user@machine:~$ sudo gpasswd -d anyName sudo   ### Remove the Root Privilege
 ```
 
-##### References:
+- #### References:
 1. Create a SUDO User ([web](https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart))
 2. Remove the Root Privilege-1 ([web](https://askubuntu.com/questions/335987/remove-sudo-privileges-from-a-user-without-deleting-the-user))
 3. Remove the Root Privilege-2 ([web](https://www.liquidweb.com/kb/remove-delete-user-ubuntu-16-04/))
