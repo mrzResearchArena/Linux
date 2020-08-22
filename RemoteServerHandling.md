@@ -63,17 +63,17 @@ rafsanjani@mrz:~$ nvidia-smi
 rafsanjani@mrz:~$ nvcc --version
 ```
 - #### Step 3: Ensure by run a simple programme (PyTorch/Tensorflow):
-  -[PyTorch](https://github.com/mrzResearchArena/Linux/blob/master/check-PyTorch-GPU-existance.py)
-  -[Tensorflow-2.x](https://github.com/mrzResearchArena/Linux/blob/master/check-TF-GPU-existance.py)
+  - [PyTorch](https://github.com/mrzResearchArena/Linux/blob/master/check-PyTorch-GPU-existance.py)
+  - [Tensorflow-2.x](https://github.com/mrzResearchArena/Linux/blob/master/check-TF-GPU-existance.py)
 
 - #### Step 4: GPU Memory Allocation:
-  -[Allocate GPU Memory](https://github.com/mrzResearchArena/Linux/blob/master/allocateGPU.py)
+  - [Allocate GPU Memory](https://github.com/mrzResearchArena/Linux/blob/master/allocateGPU.py)
 
 
 
 &nbsp;
 
-### 4. How does screen work?
+### 4. How does the screen work?
 
 - #### Step 1: Current Status of the Running Socket(s)
 ```console
