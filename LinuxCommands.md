@@ -12,6 +12,7 @@ user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade T
 
 ### 3. Program Killing Procedure
 #### Step 1: Show the all running program
+
 ```console
 user@machine:~$ top      # dynamic
 # Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
@@ -23,7 +24,7 @@ user@machine:~$ ps aux   # static
 user@machine:~$ kill 3288             # Kill a particular program
 # Example: Here, 3288 is the process identity (PID), Then the program (3288) will halt.
 
-user@machine:~$ kill -9 3288          # Kill a particular program forcefully
+user@machine:~$ kill -9 3288          # Kill a particular program forcefully. It is especially helpful for the GPU system.
 user@machine:~$ kill -9 -1            # Kill all the program
 ```
 &nbsp;
