@@ -68,16 +68,16 @@ user@machine:~$ ls -1 | grep -E '*\.fasta$'| wc -l   # Find all .fasta files fro
 - #### Step 5: Find the expected files from the `desired` location
 ```console
 user@machine:~$ find /home/mrz/Desktop/Bk/MakeDB -name '*.pssm'          # View all files that ends with .fasta extension   
-user@machine:~$ find /home/mrz/Desktop/Bk/MakeDB -type f -name 'pssm'  # -type f, is for finding files
-user@machine:~$ find /home/mrz/Desktop/Bk/MakeDB -type d -name 'pssm'  # -type d, is for finding directories
-user@machine:~$ find / -size 10M                                       # Find file which is more than 10 MB
+user@machine:~$ find /home/mrz/Desktop/Bk/MakeDB -type f -name 'pssm'    # -type f, is for finding files
+user@machine:~$ find /home/mrz/Desktop/Bk/MakeDB -type d -name 'pssm'    # -type d, is for finding directories
+user@machine:~$ find / -size 10M                                         # Find file which is more than 10 MB
 ```
 
 - #### Step 6: Find the expected files from the `any` location (Search whole filesystems)
 ```console
-user@machine:~$ locate '*.pssm'     # View all files that ends with .fasta extension
-user@machine:~$ locate -i '*.pssm'  # -i, is for the case insensitive
-user@machine:~$ locate -S           # Count the total number of directories, and files
+user@machine:~$ locate '*.pssm'       # View all files that ends with .fasta extension
+user@machine:~$ locate -i '*.pssm'    # -i, is for the case insensitive
+user@machine:~$ locate -S             # Count the total number of directories, and files
 ```
 
 
@@ -168,7 +168,7 @@ user@machine:~$ unzip anyName.zip                      # anyName.zip        --> 
 
 ### 8. Install ~.deb File
 ```console
-user@machine:~$ sudo apt install ./<anyName>.deb
+user@machine:~$ sudo apt install ./anyName.deb
 ```
 
 &nbsp;
