@@ -10,7 +10,7 @@ user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade T
 
 &nbsp;
 
-### 3. Program Killing Procedure
+### 2. Program Killing Procedure
 #### Step 1: Show the all running program
 
 ```console
@@ -29,7 +29,7 @@ user@machine:~$ kill -9 -1            # Kill all the program
 ```
 &nbsp;
 
-### 4. Display Files and Directories
+### 3. Display Files and Directories
 
 #### Step 1: Display all file names
 ```console
@@ -83,7 +83,7 @@ user@machine:~$ locate -S           # Count the total number of directories, and
 
 &nbsp;
 
-### 5. String Handling
+### 4. String Handling
 #### Step 1: Replace text segment (using sed)
 ```console
 user@machine:~$ sed 's/oldText/newText/' fileName.txt        # Change the text segment without replacement) 
@@ -96,7 +96,7 @@ user@machine:~$ cat fileName.txt | tr '!' '.'                # tr must use as a 
 
 &nbsp;
 
-### 6. Regular Expression
+### 5. Regular Expression
 #### Step 1: Search a keyword from a file
 ```console
 user@machine:~$ grep 'keyword' fileName.txt
@@ -116,7 +116,7 @@ user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep
 
 &nbsp;
 
-### 7. Download file from the website 
+### 6. Download file from the website 
 #### 7.1 Download Files from the FTP Server 
 ```console
 user@machine:~$ wget 'ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.*.tar.gz'   # Download `nr` dataset from the NCBI website   
@@ -124,7 +124,7 @@ user@machine:~$ wget 'ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.*.tar.gz'   # Downl
 
 &nbsp;
 
-### 8. TTY Mode
+### 7. TTY Mode
 ```console
 user@machine:~$ sudo chvt 7                            # Try 1, 2, 3, ... 7 
 
