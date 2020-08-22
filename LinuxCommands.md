@@ -133,7 +133,7 @@ user@machine:~$ gzip   *.fasta                         # *.fasta          --> *.
 user@machine:~$ gunzip *.fasta.gz                      # *.fasta.gz       --> *.fasta            # gzip -d *.fasta.gz
 ```
 
-- #### 8.2 Compress/Uncompress file using `bzip2`
+- #### 7.2 Compress/Uncompress file using `bzip2`
 ```console
 user@machine:~$ bzip2   anyName.fasta                  # anyName.fasta      --> anyName.fasta.bz2
 user@machine:~$ bunzip2 anyName.fasta.bz2              # anyName.fasta.bz2  --> anyName.fasta     # bzip2 -d anyName.fasta.bz2
@@ -142,31 +142,31 @@ user@machine:~$ bzip2   *.fasta                        # *.fasta            --> 
 user@machine:~$ bunzip2 *.fasta.bz2                    # *.fasta.bz2        --> *.fasta           # bzip2 -d *.fasta.bz2
 ```
 
-- #### 8.3 Compress/Uncompress file using `zip` (The most common technique)
+- #### 7.3 Compress/Uncompress file using `zip` (The most common technique)
 ```console 
 user@machine:~$ zip -r anyName.zip anyName             # anyName            --> anyName.zip
 user@machine:~$ unzip anyName.zip                      # anyName.zip        --> anyName
 ```
 
-- #### 8.4 Compress/Uncompress file using `.tar.gz or .tar`
-- ##### 8.4.1 Compress Directory
-```console
-user@machine:~$ tar -cvf anyName.tar *.fasta           # -c, is for create a .tar file
-user@machine:~$ gzip anyName.tar                       # Or, bzip2 anyName.tar
-```
+- #### 7.4 Compress/Uncompress file using `.tar.gz or .tar`
+  - ##### 7.4.1 Compress Directory
+  ```console
+  user@machine:~$ tar -cvf anyName.tar *.fasta           # -c, is for create a .tar file
+  user@machine:~$ gzip anyName.tar                       # Or, bzip2 anyName.tar
+  ```
 
-- ##### 8.4.2 Uncompress Directory
-```console
-user@machine:~$ gunzip anyName.tar.gz                   # Or, bunzip2 anyName.tar.bz2
-user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the *.tar file
-user@machine:~$ tar -xvzf anyName.tar.gz                # Direct uncompress *.tar.gz file
+  - ##### 7.4.2 Uncompress Directory
+  ```console
+  user@machine:~$ gunzip anyName.tar.gz                   # Or, bunzip2 anyName.tar.bz2
+  user@machine:~$ tar -xvf anyName.tar                    # -x, is for extract the *.tar file
+  user@machine:~$ tar -xvzf anyName.tar.gz                # Direct uncompress *.tar.gz file
 
-# Suggestion: Use graphical mode for the directory uncompression, if the directory is small-sized.
-```
+  # Suggestion: Use graphical mode for the directory uncompression, if the directory is small-sized.
+  ```
 
 &nbsp;
 
-### 9. Install .deb File
+### 8. Install .deb File
 ```console
 user@machine:~$ sudo apt install ./<anyName>.deb
 ```
