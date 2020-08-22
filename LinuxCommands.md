@@ -15,7 +15,6 @@ user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade T
 
 ```console
 user@machine:~$ top                     # dynamic
-# Example: PID (3288), USER (rafsanjani), and COMMAND (firefox)
 user@machine:~$ ps aux                  # static
 user@machine:~$ ps aux | grep '<PID>'   # Find a particular process with details
 ```
