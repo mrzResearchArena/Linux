@@ -108,7 +108,7 @@ user@machine:~$ cat fileName.txt | grep 'keyword'
 user@machine:~$ grep '>' fileName.fasta | wc -l              # Number of lines denotes by ( l )
 ```
 
-#### Step 3: Gmail Pattern
+- #### Step 3: Gmail Pattern
 ```console
 user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | tr '-d' '.' | egrep '[a-zA-Z0-9]{7,29}' 
 user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep '^[a-zA-Z]' | sed 's/@gmail.com//' | egrep '[a-zA-Z0-9.]{7,29}' 
