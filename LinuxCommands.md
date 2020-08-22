@@ -11,7 +11,7 @@ user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade T
 &nbsp;
 
 ### 2. Program Killing Procedure
-#### Step 1: Show the all running program
+- #### Step 1: Show the all running program
 
 ```console
 user@machine:~$ top      # dynamic
@@ -19,7 +19,7 @@ user@machine:~$ top      # dynamic
 user@machine:~$ ps aux   # static
 ```
 
-#### Step 2: Kill program(s)
+- #### Step 2: Kill program(s)
 ```console
 user@machine:~$ kill 3288             # Kill a particular program
 # Example: Here, 3288 is the process identity (PID), Then the program (3288) will halt.
