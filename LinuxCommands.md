@@ -41,6 +41,7 @@ user@machine:~$ ls -l               # View all visible with their details and lo
 user@machine:~$ ls -lh              # View all visible with their details and human readable file size ( h ) 
 user@machine:~$ ls -d */            # View only directories
 user@machine:~$ ls  anyDirectory    # View all visible file and directory for anyDirectory
+user@machine:~$ ls -F               # Indicate directory following /
 ```
 
 - #### Step 2: Display last five modified files with their details
