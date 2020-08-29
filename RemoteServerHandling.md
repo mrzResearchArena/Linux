@@ -205,7 +205,7 @@ user@machine:~$ sudo vi /etc/ssh/sshd_config
 
 - #### Step 2: Set the Value
 ```
-ClientAliveInterval  216000
+ClientAliveInterval  21600   # 6h --> (3600 x 6) seconds.
 ```
 
 - #### Step 3: Reload the SSH
