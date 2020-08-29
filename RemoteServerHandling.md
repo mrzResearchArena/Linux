@@ -213,10 +213,4 @@ ClientAliveInterval  216000
 user@machine:~$ sudo systemctl reload sshd
 ```
 
-**References:** https://www.tecmint.com/increase-ssh-connection-timeout/
-
-
-&nbsp;
-&nbsp;
-
-**Note:** The step doesn't mean you have to follow one by one.
+- **References:** https://www.tecmint.com/increase-ssh-connection-timeout/
