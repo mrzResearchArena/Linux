@@ -196,7 +196,7 @@ rafsanjani@mrz:~$ sudo apt autoremove && sudo apt autoclean
 
 &nbsp;
 
-### 7. Keep SSH Alive / Increase SSH Connection Timeout:
+### 8. Keep Remote SSH Alive / Increase SSH Connection Timeout / Prevent Remote SSH Disconnect:
 
 - #### Step 1: Configure
 ```console
