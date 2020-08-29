@@ -177,7 +177,7 @@ localhost:8888/tree
 
 &nbsp;
 
-### 7. Space Optimization!
+### 7. Space Optimization:
 
 - #### Step 1: Uninstall all unused packages from virtual environment ####
 ```console
@@ -193,6 +193,28 @@ rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/*
 ```console
 rafsanjani@mrz:~$ sudo apt autoremove && sudo apt autoclean 
 ```
+
+&nbsp;
+
+### 7. Keep SSH Alive / Increase SSH Connection Timeout:
+
+- #### Step 1: Configure
+```console
+user@machine:~$ sudo vi /etc/ssh/sshd_config
+```
+
+- #### Step 2: Set the Value
+```
+ClientAliveInterval  216000
+```
+
+- #### Step 3: Reload the SSH
+```console
+user@machine:~$ sudo systemctl reload sshd
+```
+
+**References:** https://www.tecmint.com/increase-ssh-connection-timeout/
+
 
 &nbsp;
 &nbsp;
