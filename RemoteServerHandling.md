@@ -18,8 +18,8 @@ user@machine:~$ cat /etc/os-release   # Another way!
 
 - #### Step 2: Processor Model
 ```console
-user@machine:~$ lscpu | grep 'Model name'
-user@machine:~$ cat /proc/cpuinfo | grep 'model name'
+user@machine:~$ lscpu | grep 'Model name'              # Output: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+user@machine:~$ cat /proc/cpuinfo | grep 'model name'  # Output: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
 ```
 
 
