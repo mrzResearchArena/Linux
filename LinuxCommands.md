@@ -1,7 +1,7 @@
 # Linux Handling
 &nbsp;
 
-### 1. System Update and Upgrade
+### 1. System Update and Upgrade:
 ```console
 user@machine:~$ sudo apt update                           # Update
 user@machine:~$ sudo apt upgrade                          # Upgrade
@@ -10,7 +10,7 @@ user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade T
 
 &nbsp;
 
-### 2. Program Killing Procedure
+### 2. Program Killing Procedure:
 - #### Step 1: Show the all running program
 
 ```console
@@ -29,7 +29,7 @@ user@machine:~$ kill -9 -1            # Kill all the program
 ```
 &nbsp;
 
-### 3. Display Files and Directories
+### 3. Display Files and Directories:
 
 - #### Step 1: Display all file names
 ```console
@@ -84,7 +84,7 @@ user@machine:~$ locate -S             # Count the total number of directories, a
 
 &nbsp;
 
-### 4. String Handling
+### 4. String Handling:
 - #### Step 1: Replace text segment (using sed)
 ```console
 user@machine:~$ sed 's/oldText/newText/' fileName.txt        # Change the text segment without replacement) 
@@ -97,7 +97,7 @@ user@machine:~$ cat fileName.txt | tr '!' '.'                # tr must use as a 
 
 &nbsp;
 
-### 5. Regular Expression
+### 5. Regular Expression:
 - #### Step 1: Search a keyword from a file
 ```console
 user@machine:~$ grep 'keyword' fileName.txt
@@ -117,14 +117,14 @@ user@machine:~$ echo '1hj..bjb....bjh..b@gmail.com'| egrep '@gmail.com$' | egrep
 
 &nbsp;
 
-### 6. Download file from the website 
+### 6. Download file from the website:
 ```console
 user@machine:~$ wget 'ftp://ftp.ncbi.nlm.nih.gov/blast/db/nr.*.tar.gz'   # Download `nr` dataset from the NCBI website (FTP Server)
 ```
 
 &nbsp;
 
-### 7. Compress/Uncompress the File and Directory
+### 7. Compress/Uncompress the File and Directory:
 - #### 7.1 Compress/Uncompress file using `gzip`
 ```console
 user@machine:~$ gzip   anyName.fasta                   # anyName.fasta    --> anyName.fasta.gz
@@ -167,9 +167,28 @@ user@machine:~$ unzip anyName.zip                      # anyName.zip        --> 
 
 &nbsp;
 
-### 8. Install ~.deb File
+### 8. Install ~.deb File:
 ```console
 user@machine:~$ sudo apt install ./anyName.deb
+```
+
+&nbsp;
+
+### 9. Space Optimization:
+
+- #### Step 1: Uninstall all unused packages from virtual environment ####
+```console
+rafsanjani@mrz:~$ conda clean --yes --all
+```
+
+- #### Step 2: Clean Trash ####
+```console
+rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/* 
+```
+
+- #### Step 3: Auto Remove and Auto Clean ####
+```console
+rafsanjani@mrz:~$ sudo apt autoremove && sudo apt autoclean 
 ```
 
 &nbsp;
