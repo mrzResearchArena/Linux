@@ -177,26 +177,7 @@ localhost:8888/tree
 
 &nbsp;
 
-### 7. Space Optimization:
-
-- #### Step 1: Uninstall all unused packages from virtual environment ####
-```console
-rafsanjani@mrz:~$ conda clean --yes --all
-```
-
-- #### Step 2: Clean Trash ####
-```console
-rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/* 
-```
-
-- #### Step 3: Auto Remove and Auto Clean ####
-```console
-rafsanjani@mrz:~$ sudo apt autoremove && sudo apt autoclean 
-```
-
-&nbsp;
-
-### 8. Keep Remote SSH Alive / Increase SSH Connection Timeout / Prevent Remote SSH Disconnect:
+### 7. Keep Remote SSH Alive / Increase SSH Connection Timeout / Prevent Remote SSH Disconnect:
 
 - #### Step 1: Configure
 ```console
