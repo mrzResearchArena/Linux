@@ -1,4 +1,4 @@
-### GPU Setup:
+# GPU Setup:
 
 #### Step 1: Initialization
 ```console
