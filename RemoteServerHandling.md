@@ -48,7 +48,7 @@ user@machine:~$ nproc                          # RAM Core
 
 ### 2. Ubuntu Installation for Deep Learning 
 - #### Seep 1: GPU Setup [ [by clicking here!](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/installGPU.sh) ]
-  - ##### Reference: Lambda Lab [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
+  - Reference: Lambda Lab [ [by clicking here!](https://lambdalabs.com/lambda-stack-deep-learning-software) ]
 
 &nbsp;
 
