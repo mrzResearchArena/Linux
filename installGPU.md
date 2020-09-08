@@ -1,5 +1,7 @@
 # GPU Setup:
 
+&nbsp;
+
 ##### Step 1: Initialization
 ```console
 user@machine:~$ LAMBDA_REPO=$(mktemp) && wget -O${LAMBDA_REPO} https://lambdalabs.com/static/misc/lambda-stack-repo.deb && sudo dpkg -i ${LAMBDA_REPO} && rm -f ${LAMBDA_REPO} && sudo apt-get update && sudo apt-get install -y lambda-stack-cuda
@@ -24,3 +26,7 @@ user@machine:~$ LAMBDA_REPO=$(mktemp) && wget -O${LAMBDA_REPO} https://lambdalab
 ```console
 user@machine:~$ sudo reboot # Run after 3-4 minutes.
 ```
+
+&nbsp;
+
+**Reference:** https://lambdalabs.com/lambda-stack-deep-learning-software
