@@ -92,7 +92,7 @@ rafsanjani@mrz:~$ screen -S anySocketName
 rafsanjani@mrz:~$ control + A + D        # The shortcut for the logout.
 ```
 
-- #### Step 4: Resume the Socket after Detach
+- #### Step 4: Resume/Re-attach the Socket after Detach
 ```console
 rafsanjani@mrz:~$ screen -r anySocketName
 ```
