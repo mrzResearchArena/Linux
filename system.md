@@ -57,3 +57,23 @@ user@machine:~$ sudo gpasswd -d anyName sudo   ### Remove the Root Privilege
 > 3. Remove the Root Privilege-2 ([web](https://www.liquidweb.com/kb/remove-delete-user-ubuntu-16-04/))
 > 4. Create User and Remove the Root Privilege ([web](https://www.ostechnix.com/how-to-grant-and-remove-sudo-privileges-to-users-on-ubuntu/))
 > 5. Restore the Root Privilege ([web](https://www.ostechnix.com/how-to-restore-sudo-privileges-to-a-user/))
+
+&nbsp;
+
+### 8. Program Killing Procedure:
+- #### Step 1: Show the all running program
+
+```console
+user@machine:~$ top                     # dynamic
+user@machine:~$ ps aux                  # static
+user@machine:~$ ps aux | grep '<PID>'   # Find a particular process with details
+```
+
+- #### Step 2: Kill program(s)
+```console
+user@machine:~$ kill 3288             # Kill a particular program
+# Example: Here, 3288 is the process identity (PID), Then the program (3288) will halt.
+
+user@machine:~$ kill -9 3288          # Kill a particular program forcefully. It is especially helpful for the GPU system.
+user@machine:~$ kill -9 -1            # Kill all the program
+```
