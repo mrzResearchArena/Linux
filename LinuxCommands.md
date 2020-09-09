@@ -10,25 +10,6 @@ user@machine:~$ sudo apt update && sudo apt upgrade       # Update and Upgrade T
 
 &nbsp;
 
-### 2. Program Killing Procedure:
-- #### Step 1: Show the all running program
-
-```console
-user@machine:~$ top                     # dynamic
-user@machine:~$ ps aux                  # static
-user@machine:~$ ps aux | grep '<PID>'   # Find a particular process with details
-```
-
-- #### Step 2: Kill program(s)
-```console
-user@machine:~$ kill 3288             # Kill a particular program
-# Example: Here, 3288 is the process identity (PID), Then the program (3288) will halt.
-
-user@machine:~$ kill -9 3288          # Kill a particular program forcefully. It is especially helpful for the GPU system.
-user@machine:~$ kill -9 -1            # Kill all the program
-```
-&nbsp;
-
 ### 3. Display Files and Directories:
 
 - #### Step 1: Display all file names
