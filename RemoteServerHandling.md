@@ -58,7 +58,7 @@ user@machine:~$ nproc                          # RAM Core
 ```console
 rafsanjani@mrz:~$ nvidia-smi
 ```
-<img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi.png" width="600" height="350" />
+<img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi.png" width="500" height="300"/>
 
 - #### Step 2: Ensure CUDA Existence
 ```console
