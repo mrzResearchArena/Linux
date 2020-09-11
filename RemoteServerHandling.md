@@ -177,7 +177,7 @@ localhost:8888/tree
 <!-- ![Jupyter Remotely](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png) -->
 
 <p align="center">
-  <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png" width="500" height="600"/>
+  <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png" width="650" height="650"/>
 </p>
 
 
