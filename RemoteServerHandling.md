@@ -58,12 +58,9 @@ user@machine:~$ nproc                          # RAM Core
 ```console
 rafsanjani@mrz:~$ nvidia-smi
 ```
-|   |    | 
+| GPU Utilization (No) | GPU Utilization (Full) |
 |---|----| 
 | <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi.png" width="500" height="325"/> |  <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi-FULL.png" width="500" height="325"/> | 
-
-
-<img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi.png" width="500" height="325"/>
 
 - #### Step 2: Ensure CUDA Existence
 ```console
