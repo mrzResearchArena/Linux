@@ -175,6 +175,7 @@ localhost:8888/tree
 &nbsp;
 
 ![Jupyter Remotely](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png)
+<img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png" width="500" height="325"/>
 
 ***Figure:*** A simple three-step process for running a remote Jupyter notebook.
 
