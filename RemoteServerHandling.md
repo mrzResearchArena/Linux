@@ -32,17 +32,17 @@
 - #### Step 4: HDD (Hard Disk Drive) Status
 
   - ##### Step 4.1: Working Drive (Dual Boot Mode OS)
-  ```console
-  user@machine:~$ df -h                            # Show disk usage
+    ```console
+    user@machine:~$ df -h                            # Show disk usage
 
-  user@machine:~$ du -h --max-depth=1 /home/user   # Show the directory space usage for the particular location.
-  user@machine:~$ du -h -s /home/user              # -s, is for the summarizing the given location size.
-  ```
+    user@machine:~$ du -h --max-depth=1 /home/user   # Show the directory space usage for the particular location.
+    user@machine:~$ du -h -s /home/user              # -s, is for the summarizing the given location size.
+    ```
 
   - ##### Step 4.2: Whole HDD Information (Identifying the Partition Type)
-  ```console
-  user@machine:~$ sudo fdisk -l
-  ```
+    ```console
+    user@machine:~$ sudo fdisk -l
+    ```
 
 &nbsp;
 
@@ -132,12 +132,12 @@ user@machine:~$ scp  <source>  <destination>
 
 - #### Step 1: Copy a file 
   ```console
-  rafsanjani@mrz:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/learning/mrzResearchArena
+  user@machine:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/learning/mrzResearchArena
   ```
 
 - #### Step 2: Copy a directory
   ```console
-  rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
+  user@machine:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
   ```
 - #### Step 3: How to copy all files to HDD?
   ```console
@@ -151,15 +151,15 @@ user@machine:~$ scp  <source>  <destination>
   ```console
   learning@150.78.20.89:~$ jupyter-notebook --no-browser --port=8889 
   ```
-***Note:*** By running, you will recieve a token from remote machine (or, server). 
+  ***Note:*** By running, you will recieve a token from remote machine (or, server). 
 
-Exmaple: http://localhost:8889/?token=05f8832e3a103c9cab5f89b28e8c6e24b74ce61e2fc8ddzz
+  Exmaple: http://localhost:8889/?token=05f8832e3a103c9cab5f89b28e8c6e24b74ce61e2fc8ddbz
 
 &nbsp;
 
 - #### Step 2: Run on a local machine ####
   ```console
-  rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.89
+  user@machine:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.89
   ```
 ***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
@@ -176,16 +176,16 @@ Exmaple: http://localhost:8889/?token=05f8832e3a103c9cab5f89b28e8c6e24b74ce61e2f
 
 <!-- ![Jupyter Remotely](https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png) -->
 
-<p align="center">
-  <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png" width="550" height="550"/>
-</p>
+  <p align="center">
+    <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/jupyternotebook.png" width="550" height="550"/>
+  </p>
 
 
 
-***Figure:*** A simple three-step process for running a remote Jupyter notebook.
+  ***Figure:*** A simple three-step process for running a remote Jupyter notebook.
 
-##### Learning Resource-1 [ [by clicking here!](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/) ]
-##### Learning Resource-2 [ [by clicking here!](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook/) ]
+  ##### Learning Resource-1 [ [by clicking here!](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/) ]
+  ##### Learning Resource-2 [ [by clicking here!](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook/) ]
 
 &nbsp;
 
