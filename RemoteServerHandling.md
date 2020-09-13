@@ -17,17 +17,17 @@
   ```
 
 - #### Step 2: Processor Model:
-```console
-user@machine:~$ lscpu | grep 'Model name'              # Output: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
-user@machine:~$ cat /proc/cpuinfo | grep 'model name'  # Output: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
-```
+  ```console
+  user@machine:~$ lscpu | grep 'Model name'              # Output: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+  user@machine:~$ cat /proc/cpuinfo | grep 'model name'  # Output: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+  ```
 
 - #### Step 3: RAM Status
-```console
-user@machine:~$ free -h                        # RAM capacity
-user@machine:~$ sudo dmidecode --type 17       # RAM information
-user@machine:~$ nproc                          # RAM Core
-```
+  ```console
+  user@machine:~$ free -h                        # RAM capacity
+  user@machine:~$ sudo dmidecode --type 17       # RAM information
+  user@machine:~$ nproc                          # RAM Core
+  ```
 
 - #### Step 4: HDD (Hard Disk Drive) Status
 
@@ -55,19 +55,19 @@ user@machine:~$ nproc                          # RAM Core
 ### 3. How to check GPU configuration?
 
 - #### Step 1: Ensure GPU Existence
-```console
-rafsanjani@mrz:~$ nvidia-smi
-```
-| GPU Utilization (No) | GPU Utilization (Full) |
-|---|----| 
-| <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi.png" width="500" height="325"/> |  <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi-FULL.png" width="500" height="325"/> | 
+  ```console
+  rafsanjani@mrz:~$ nvidia-smi
+  ```
+  | GPU Utilization (No) | GPU Utilization (Full) |
+  |---|----| 
+  | <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi.png" width="500" height="325"/> |  <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi-FULL.png" width="500" height="325"/> | 
 
-***Note:*** [What is the difference between Type-C and Type-G process?](https://stackoverflow.com/questions/54750627/what-do-g-and-c-types-mean-in-nvidia-smi)
+  ***Note:*** [What is the difference between Type-C and Type-G process?](https://stackoverflow.com/questions/54750627/what-do-g-and-c-types-mean-in-nvidia-smi)
 
 - #### Step 2: Ensure CUDA Existence
-```console
-rafsanjani@mrz:~$ nvcc --version
-```
+  ```console
+  rafsanjani@mrz:~$ nvcc --version
+  ```
 - #### Step 3: Ensure by run a simple programme (PyTorch/Tensorflow):
   - [PyTorch](https://github.com/mrzResearchArena/Linux/blob/master/check-PyTorch-GPU-existance.py)
   - [Tensorflow-2.x](https://github.com/mrzResearchArena/Linux/blob/master/check-TF-GPU-existance.py)
@@ -75,52 +75,50 @@ rafsanjani@mrz:~$ nvcc --version
 - #### Step 4: GPU Memory Allocation:
   - [Allocate GPU Memory](https://github.com/mrzResearchArena/Linux/blob/master/allocateGPU.py)
 
-
-
 &nbsp;
 
 ### 4. How does the screen work?
 
 - #### Step 1: Current Status of the Running Socket(s)
-```console
-rafsanjani@mrz:~$ screen -list   # screen -ls
-```
+  ```console
+  rafsanjani@mrz:~$ screen -list   # screen -ls
+  ```
 
 - #### Step 2: Generate a Socket
-```console
-rafsanjani@mrz:~$ screen -S anySocketName
-```
+  ```console
+  rafsanjani@mrz:~$ screen -S anySocketName
+  ```
 
 - #### Step 3: Detach Screen without Killing the Socket
-```console
-rafsanjani@mrz:~$ control + A + D        # The shortcut for the logout.
-```
+  ```console
+  rafsanjani@mrz:~$ control + A + D        # The shortcut for the logout.
+  ```
 
 - #### Step 4: Resume/Re-attach the Socket after Detach
-```console
-rafsanjani@mrz:~$ screen -r anySocketName
-```
+  ```console
+  rafsanjani@mrz:~$ screen -r anySocketName
+  ```
 
 - #### Step 5: Kill a Socket
-```console
-rafsanjani@mrz:~$ screen -S anySocketName -X quit
-```
+  ```console
+  rafsanjani@mrz:~$ screen -S anySocketName -X quit
+  ```
 
 - #### Step 6: Remove Dead Screen
-```console
-rafsanjani@mrz:~$ screen -wipe
-```
+  ```console
+  rafsanjani@mrz:~$ screen -wipe
+  ```
 
 - #### Step 7: Know the Current Socket Name
-```console
-rafsanjani@mrz:~$ echo $STY
-```
+  ```console
+  rafsanjani@mrz:~$ echo $STY
+  ```
 
 - #### Step 8: Kill All Screen
-```console
-rafsanjani@mrz:~$ killall screen 
-rafsanjani@mrz:~$ pkill screen     # Alternative way
-```
+  ```console
+  rafsanjani@mrz:~$ killall screen 
+  rafsanjani@mrz:~$ pkill screen     # Alternative way
+  ```
 
 
 &nbsp;
@@ -133,26 +131,26 @@ rafsanjani@mrz:~$ scp  <source>  <destination>
 ***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
 - #### Step 1: Copy a file 
-```console
-rafsanjani@mrz:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/learning/mrzResearchArena
-```
+  ```console
+  rafsanjani@mrz:~$ scp /home/rafsanjani/anyFile.csv learning@150.78.20.89:/home/learning/mrzResearchArena
+  ```
 
 - #### Step 2: Copy a directory
-```console
-rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
-```
+  ```console
+  rafsanjani@mrz:~$ scp -r /home/rafsanjani/anyDirectory learning@150.78.20.89:/home/learning/mrzResearchArena
+  ```
 - #### Step 3: How to copy all files to HDD?
-```console
-user@machine:~$ cp -rf /home/user/ /media/user/BACKUP
-```
+  ```console
+  user@machine:~$ cp -rf /home/user/ /media/user/BACKUP
+  ```
 &nbsp;
 
 ### 6. How to access jupyter notebook remotely?
 
 - #### Step 1: Run on a remote machine ####
-```console
-learning@150.78.20.89:~$ jupyter-notebook --no-browser --port=8889 
-```
+  ```console
+  learning@150.78.20.89:~$ jupyter-notebook --no-browser --port=8889 
+  ```
 ***Note:*** By running, you will recieve a token from remote machine (or, server). 
 
 Exmaple: http://localhost:8889/?token=05f8832e3a103c9cab5f89b28e8c6e24b74ce61e2fc8ddzz
@@ -160,17 +158,17 @@ Exmaple: http://localhost:8889/?token=05f8832e3a103c9cab5f89b28e8c6e24b74ce61e2f
 &nbsp;
 
 - #### Step 2: Run on a local machine ####
-```console
-rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.89
-```
+  ```console
+  rafsanjani@mrz:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.89
+  ```
 ***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
 &nbsp;
 
 - #### Step 3: Go to the local machine's web browser and type the below URL! ####
-```console
-localhost:8888/tree
-```
+  ```console
+  localhost:8888/tree
+  ```
 
 - #### Step 4: Graphical Interface ####
 
@@ -194,18 +192,18 @@ localhost:8888/tree
 ### 7. Keep Remote SSH Alive / Increase SSH Connection Timeout / Prevent Remote SSH Disconnect:
 
 - #### Step 1: Configure
-```console
-user@machine:~$ sudo vi /etc/ssh/sshd_config
-```
+  ```console
+  user@machine:~$ sudo vi /etc/ssh/sshd_config
+  ```
 
 - #### Step 2: Set the Value
-```
-ClientAliveInterval  21600   # 6h --> (3600 x 6) seconds.
-```
+  ```
+  ClientAliveInterval  21600   # 6h --> (3600 x 6) seconds.
+  ```
 
 - #### Step 3: Reload the SSH
-```console
-user@machine:~$ sudo systemctl reload sshd
-```
+  ```console
+  user@machine:~$ sudo systemctl reload sshd
+  ```
 
 - **References:** https://www.tecmint.com/increase-ssh-connection-timeout/
