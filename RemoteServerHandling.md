@@ -8,7 +8,7 @@
   ```console
   user@machine:~$ uname -a              # All informatics about OS
   # Output: Linux rafsanjani 4.15.0-65-generic #74~16.04.1-Ubuntu SMP Wed Sep 18 09:51:44 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
-
+  
   user@machine:~$ uname -r              # Kernel Release      --> 4.15.0-65-generic
   user@machine:~$ uname -v              # Kernel Version      --> #74~16.04.1-Ubuntu
   user@machine:~$ arch                  # Kernel Architecture --> x86_64 (64 bits)
@@ -56,7 +56,7 @@
 
 - #### Step 1: Ensure GPU Existence
   ```console
-  rafsanjani@mrz:~$ nvidia-smi
+  user@machine:~$ nvidia-smi
   ```
   | GPU Utilization (No) | GPU Utilization (Full) |
   |---|----| 
@@ -66,7 +66,7 @@
 
 - #### Step 2: Ensure CUDA Existence
   ```console
-  rafsanjani@mrz:~$ nvcc --version
+  user@mrz:~$ nvcc --version
   ```
 - #### Step 3: Ensure by run a simple programme (PyTorch/Tensorflow):
   - [PyTorch](https://github.com/mrzResearchArena/Linux/blob/master/check-PyTorch-GPU-existance.py)
@@ -81,43 +81,43 @@
 
 - #### Step 1: Current Status of the Running Socket(s)
   ```console
-  rafsanjani@mrz:~$ screen -list   # screen -ls
+  user@machine:~$ screen -list   # screen -ls
   ```
 
 - #### Step 2: Generate a Socket
   ```console
-  rafsanjani@mrz:~$ screen -S anySocketName
+  user@machine:~$ screen -S anySocketName
   ```
 
 - #### Step 3: Detach Screen without Killing the Socket
   ```console
-  rafsanjani@mrz:~$ control + A + D        # The shortcut for the logout.
+  user@machine:~$ control + A + D        # The shortcut for the logout.
   ```
 
 - #### Step 4: Resume/Re-attach the Socket after Detach
   ```console
-  rafsanjani@mrz:~$ screen -r anySocketName
+  user@machine:~$ screen -r anySocketName
   ```
 
 - #### Step 5: Kill a Socket
   ```console
-  rafsanjani@mrz:~$ screen -S anySocketName -X quit
+  user@machine:~$ screen -S anySocketName -X quit
   ```
 
 - #### Step 6: Remove Dead Screen
   ```console
-  rafsanjani@mrz:~$ screen -wipe
+  user@machine:~$ screen -wipe
   ```
 
 - #### Step 7: Know the Current Socket Name
   ```console
-  rafsanjani@mrz:~$ echo $STY
+  user@machine:~$ echo $STY
   ```
 
 - #### Step 8: Kill All Screen
   ```console
-  rafsanjani@mrz:~$ killall screen 
-  rafsanjani@mrz:~$ pkill screen     # Alternative way
+  user@machine:~$ killall screen 
+  user@machine:~$ pkill screen     # Alternative way
   ```
 
 
@@ -126,7 +126,7 @@
 ### 5. How to copy a file/directory from local machine to remote machine?
 
 ```console
-rafsanjani@mrz:~$ scp  <source>  <destination>
+user@machine:~$ scp  <source>  <destination>
 ```
 ***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
