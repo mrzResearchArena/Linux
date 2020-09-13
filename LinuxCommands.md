@@ -158,19 +158,19 @@ user@machine:~$ sudo apt install ./anyName.deb
 ### 9. Space Optimization:
 
 - #### Step 1: Uninstall all unused packages from virtual environment ####
-```console
-rafsanjani@mrz:~$ conda clean --yes --all
-```
+  ```console
+  rafsanjani@mrz:~$ conda clean --yes --all
+  ```
 
 - #### Step 2: Clean Trash ####
-```console
-rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/* 
-```
+  ```console
+  rafsanjani@mrz:~$ rm -rf ~/.local/share/Trash/* 
+  ```
 
 - #### Step 3: Auto Remove and Auto Clean ####
-```console
-rafsanjani@mrz:~$ sudo apt autoremove && sudo apt autoclean 
-```
+  ```console
+  rafsanjani@mrz:~$ sudo apt autoremove && sudo apt autoclean 
+  ```
 
 &nbsp;
 &nbsp;
