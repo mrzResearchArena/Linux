@@ -62,6 +62,8 @@ rafsanjani@mrz:~$ nvidia-smi
 |---|----| 
 | <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi.png" width="500" height="325"/> |  <img src="https://github.com/mrzResearchArena/Linux-Documentation/blob/master/nvidia-smi-FULL.png" width="500" height="325"/> | 
 
+- Note: [What is the difference between Type-C and Type-G process?](https://stackoverflow.com/questions/54750627/what-do-g-and-c-types-mean-in-nvidia-smi)
+
 - #### Step 2: Ensure CUDA Existence
 ```console
 rafsanjani@mrz:~$ nvcc --version
