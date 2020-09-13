@@ -161,7 +161,7 @@ user@machine:~$ scp  <source>  <destination>
   ```console
   user@machine:~$ ssh -N -f -L localhost:8888:localhost:8889 learning@150.78.20.89
   ```
-***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
+  ***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
 
 &nbsp;
 
