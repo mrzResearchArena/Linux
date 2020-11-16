@@ -77,3 +77,15 @@ user@machine:~$ sudo gpasswd -d anyName sudo   ### Remove the Root Privilege
   user@machine:~$ kill -9 -1            # Kill all the program
   ```
   
+&nbsp;
+
+### 9. Boot a Pendrive for the Linux-based OS:
+- #### Step 1: Findout the Pendrive
+  ```console
+  user@machine:~$ ls /dev/sd    # Press the Tab (NOT the Enter)
+  ```
+  
+- #### Step 2: Boot the Pendrive
+  ```console
+  user@machine:~$ sudo dd if=anyName.iso of=/dev/sdx bs=4M status=progress && sync   # x = {b, c, d, ...}
+  ```
