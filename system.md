@@ -84,6 +84,10 @@ user@machine:~$ sudo gpasswd -d anyName sudo   ### Remove the Root Privilege
   ```console
   user@machine:~$ ls /dev/sd    # Press the Tab (NOT the Enter)
   ```
+  | Did NOT the Pendrive | Found the Pendrive |
+  |---|----| 
+  | <img src="https://github.com/mrzResearchArena/Linux/blob/master/sdx-1.png" width="500" height="325"/> |  <img src="https://github.com/mrzResearchArena/Linux/blob/master/sdx-2.png" width="500" height="325"/> | 
+
   
 - #### Step 2: Boot the Pendrive
   ```console
