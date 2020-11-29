@@ -123,7 +123,7 @@
 
 &nbsp;
 
-### 5. How to copy a file/directory from local machine to remote machine?
+### 5.1. How to copy a file/directory from local machine to remote machine? (Use Remote Terminal)
 
 ```console
 user@machine:~$ scp  <source>  <destination>
@@ -143,6 +143,26 @@ user@machine:~$ scp  <source>  <destination>
   ```console
   user@machine:~$ cp -rf /home/user/ /media/user/BACKUP
   ```
+  
+&nbsp;
+
+### 5.2. How to copy a file/directory from remote machine to local machine? (Use Local Terminal)
+
+```console
+user@machine:~$ scp  <source>  <destination>
+```
+***Note:*** `150.78.20.89` and `learning` are the IP address and user name of remote machine respectively.
+
+- #### Step 1: Copy a file 
+  ```console
+  user@machine:~$ scp learning@150.78.20.89:/home/learning/ACP-SaveModel.zip /home/rafsanjani/Desktop
+  ```
+  
+- #### Step 2: Copy a directory
+  ```console
+  user@machine:~$ scp -r learning@150.78.20.89:/home/learning/ACP-SaveModel /home/rafsanjani/Desktop
+  ```
+  
 &nbsp;
 
 ### 6. How to access jupyter notebook remotely?
