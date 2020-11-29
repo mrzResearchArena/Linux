@@ -123,7 +123,7 @@
 
 &nbsp;
 
-### 5.1. How to copy a file/directory from local machine to remote machine? (Use Remote Terminal)
+### 5.1. How to copy a file/directory from local machine to remote machine? (Use Local Terminal)
 
 ```console
 user@machine:~$ scp  <source>  <destination>
