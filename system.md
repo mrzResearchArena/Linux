@@ -93,3 +93,12 @@ user@machine:~$ sudo gpasswd -d anyName sudo   ### Remove the Root Privilege
   ```console
   user@machine:~$ sudo dd if=anyName.iso of=/dev/sdx bs=4M status=progress && sync   # x = {b, c, d, ...}
   ```
+
+&nbsp;
+
+### 10. Wi-Fi Reboot for Linux
+```console
+nmcli radio wifi off
+sleep 15
+nmcli radio wifi on
+```
