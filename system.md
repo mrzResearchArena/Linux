@@ -99,6 +99,8 @@ user@machine:~$ sudo gpasswd -d anyName sudo   ### Remove the Root Privilege
 ### 10. Wi-Fi Reboot for Linux
 ```console
 nmcli radio wifi off
-sleep 15
+echo 'Wi-Fi is turned off. Internet will appear within 15 seconds if everything goes smoothly.'
+sleep 10 # Pause for 10 seconds
 nmcli radio wifi on
+echo 'Wi-Fi will turn on after a few seconds.'
 ```
